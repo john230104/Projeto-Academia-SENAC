@@ -16,5 +16,10 @@ namespace Projeto_Academia_SENAC
         {
             InitializeComponent();
         }
+
+        private void frmControle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
