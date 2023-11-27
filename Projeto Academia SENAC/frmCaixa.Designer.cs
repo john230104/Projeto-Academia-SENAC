@@ -44,33 +44,33 @@
             this.button9 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbpCaixa = new System.Windows.Forms.TabPage();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.btnCaiLimpar = new System.Windows.Forms.Button();
+            this.btnCaiVoltar = new System.Windows.Forms.Button();
+            this.btnCaiPesquisar = new System.Windows.Forms.Button();
+            this.btnCaiRegistrar = new System.Windows.Forms.Button();
+            this.txtCaiValorTotal = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.gpbCaixaPagamento = new System.Windows.Forms.GroupBox();
+            this.chbCaiPix = new System.Windows.Forms.CheckBox();
+            this.chbCaiDebito = new System.Windows.Forms.CheckBox();
+            this.chbCaiCredito = new System.Windows.Forms.CheckBox();
+            this.chbCaiDinheiro = new System.Windows.Forms.CheckBox();
+            this.txtCaiDescricao = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCaiNome = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.mktCaiCPF = new System.Windows.Forms.MaskedTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtCaiCódigo = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tbpCaixa.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gpbCaixaPagamento.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -264,22 +264,22 @@
             // 
             // tbpCaixa
             // 
-            this.tbpCaixa.Controls.Add(this.button13);
-            this.tbpCaixa.Controls.Add(this.button12);
-            this.tbpCaixa.Controls.Add(this.button11);
-            this.tbpCaixa.Controls.Add(this.button10);
-            this.tbpCaixa.Controls.Add(this.textBox4);
+            this.tbpCaixa.Controls.Add(this.btnCaiLimpar);
+            this.tbpCaixa.Controls.Add(this.btnCaiVoltar);
+            this.tbpCaixa.Controls.Add(this.btnCaiPesquisar);
+            this.tbpCaixa.Controls.Add(this.btnCaiRegistrar);
+            this.tbpCaixa.Controls.Add(this.txtCaiValorTotal);
             this.tbpCaixa.Controls.Add(this.label7);
             this.tbpCaixa.Controls.Add(this.label6);
-            this.tbpCaixa.Controls.Add(this.groupBox1);
-            this.tbpCaixa.Controls.Add(this.textBox3);
+            this.tbpCaixa.Controls.Add(this.gpbCaixaPagamento);
+            this.tbpCaixa.Controls.Add(this.txtCaiDescricao);
             this.tbpCaixa.Controls.Add(this.label5);
-            this.tbpCaixa.Controls.Add(this.textBox2);
+            this.tbpCaixa.Controls.Add(this.txtCaiNome);
             this.tbpCaixa.Controls.Add(this.label4);
-            this.tbpCaixa.Controls.Add(this.maskedTextBox1);
+            this.tbpCaixa.Controls.Add(this.mktCaiCPF);
             this.tbpCaixa.Controls.Add(this.label3);
             this.tbpCaixa.Controls.Add(this.label2);
-            this.tbpCaixa.Controls.Add(this.textBox1);
+            this.tbpCaixa.Controls.Add(this.txtCaiCódigo);
             this.tbpCaixa.Location = new System.Drawing.Point(4, 22);
             this.tbpCaixa.Name = "tbpCaixa";
             this.tbpCaixa.Padding = new System.Windows.Forms.Padding(3);
@@ -288,143 +288,48 @@
             this.tbpCaixa.Text = "CONTROLE DE CAIXA";
             this.tbpCaixa.UseVisualStyleBackColor = true;
             // 
-            // label8
+            // btnCaiLimpar
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(224, 107);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(115, 20);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Home / Caixa";
+            this.btnCaiLimpar.Location = new System.Drawing.Point(578, 427);
+            this.btnCaiLimpar.Name = "btnCaiLimpar";
+            this.btnCaiLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnCaiLimpar.TabIndex = 16;
+            this.btnCaiLimpar.Text = "Limpar";
+            this.btnCaiLimpar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // btnCaiVoltar
             // 
-            this.textBox1.Location = new System.Drawing.Point(92, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(189, 20);
-            this.textBox1.TabIndex = 0;
+            this.btnCaiVoltar.Location = new System.Drawing.Point(77, 427);
+            this.btnCaiVoltar.Name = "btnCaiVoltar";
+            this.btnCaiVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnCaiVoltar.TabIndex = 15;
+            this.btnCaiVoltar.Text = "Voltar";
+            this.btnCaiVoltar.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // btnCaiPesquisar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Código:";
+            this.btnCaiPesquisar.Location = new System.Drawing.Point(578, 387);
+            this.btnCaiPesquisar.Name = "btnCaiPesquisar";
+            this.btnCaiPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnCaiPesquisar.TabIndex = 14;
+            this.btnCaiPesquisar.Text = "Pesquisar";
+            this.btnCaiPesquisar.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // btnCaiRegistrar
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(442, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "CPF:";
+            this.btnCaiRegistrar.Location = new System.Drawing.Point(77, 387);
+            this.btnCaiRegistrar.Name = "btnCaiRegistrar";
+            this.btnCaiRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCaiRegistrar.TabIndex = 13;
+            this.btnCaiRegistrar.Text = "Registrar";
+            this.btnCaiRegistrar.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox1
+            // txtCaiValorTotal
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(488, 34);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(165, 20);
-            this.maskedTextBox1.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(43, 84);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Nome:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(92, 81);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(561, 20);
-            this.textBox2.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(23, 133);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Descrição:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(92, 130);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(561, 90);
-            this.textBox3.TabIndex = 7;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(453, 249);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 120);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Forma de Pagamento";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 21);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(76, 20);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Dinheiro";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(6, 47);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(134, 20);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Cartão de Crédito:";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(6, 73);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(128, 20);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Cartão de Débito";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 94);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(44, 20);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Pix";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 249);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Valor Total:";
+            this.txtCaiValorTotal.Location = new System.Drawing.Point(116, 246);
+            this.txtCaiValorTotal.Name = "txtCaiValorTotal";
+            this.txtCaiValorTotal.Size = new System.Drawing.Size(148, 20);
+            this.txtCaiValorTotal.TabIndex = 12;
             // 
             // label7
             // 
@@ -435,48 +340,143 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "R$";
             // 
-            // textBox4
+            // label6
             // 
-            this.textBox4.Location = new System.Drawing.Point(116, 246);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 20);
-            this.textBox4.TabIndex = 12;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(25, 249);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(61, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Valor Total:";
             // 
-            // button10
+            // gpbCaixaPagamento
             // 
-            this.button10.Location = new System.Drawing.Point(77, 387);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 13;
-            this.button10.Text = "Registrar";
-            this.button10.UseVisualStyleBackColor = true;
+            this.gpbCaixaPagamento.Controls.Add(this.chbCaiPix);
+            this.gpbCaixaPagamento.Controls.Add(this.chbCaiDebito);
+            this.gpbCaixaPagamento.Controls.Add(this.chbCaiCredito);
+            this.gpbCaixaPagamento.Controls.Add(this.chbCaiDinheiro);
+            this.gpbCaixaPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpbCaixaPagamento.Location = new System.Drawing.Point(453, 249);
+            this.gpbCaixaPagamento.Name = "gpbCaixaPagamento";
+            this.gpbCaixaPagamento.Size = new System.Drawing.Size(200, 120);
+            this.gpbCaixaPagamento.TabIndex = 9;
+            this.gpbCaixaPagamento.TabStop = false;
+            this.gpbCaixaPagamento.Text = "Forma de Pagamento";
             // 
-            // button11
+            // chbCaiPix
             // 
-            this.button11.Location = new System.Drawing.Point(578, 387);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 14;
-            this.button11.Text = "Pesquisar";
-            this.button11.UseVisualStyleBackColor = true;
+            this.chbCaiPix.AutoSize = true;
+            this.chbCaiPix.Location = new System.Drawing.Point(6, 94);
+            this.chbCaiPix.Name = "chbCaiPix";
+            this.chbCaiPix.Size = new System.Drawing.Size(44, 20);
+            this.chbCaiPix.TabIndex = 3;
+            this.chbCaiPix.Text = "Pix";
+            this.chbCaiPix.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // chbCaiDebito
             // 
-            this.button12.Location = new System.Drawing.Point(77, 427);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 15;
-            this.button12.Text = "Voltar";
-            this.button12.UseVisualStyleBackColor = true;
+            this.chbCaiDebito.AutoSize = true;
+            this.chbCaiDebito.Location = new System.Drawing.Point(6, 73);
+            this.chbCaiDebito.Name = "chbCaiDebito";
+            this.chbCaiDebito.Size = new System.Drawing.Size(128, 20);
+            this.chbCaiDebito.TabIndex = 2;
+            this.chbCaiDebito.Text = "Cartão de Débito";
+            this.chbCaiDebito.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // chbCaiCredito
             // 
-            this.button13.Location = new System.Drawing.Point(578, 427);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 16;
-            this.button13.Text = "Limpar";
-            this.button13.UseVisualStyleBackColor = true;
+            this.chbCaiCredito.AutoSize = true;
+            this.chbCaiCredito.Location = new System.Drawing.Point(6, 47);
+            this.chbCaiCredito.Name = "chbCaiCredito";
+            this.chbCaiCredito.Size = new System.Drawing.Size(134, 20);
+            this.chbCaiCredito.TabIndex = 1;
+            this.chbCaiCredito.Text = "Cartão de Crédito:";
+            this.chbCaiCredito.UseVisualStyleBackColor = true;
+            // 
+            // chbCaiDinheiro
+            // 
+            this.chbCaiDinheiro.AutoSize = true;
+            this.chbCaiDinheiro.Location = new System.Drawing.Point(6, 21);
+            this.chbCaiDinheiro.Name = "chbCaiDinheiro";
+            this.chbCaiDinheiro.Size = new System.Drawing.Size(76, 20);
+            this.chbCaiDinheiro.TabIndex = 0;
+            this.chbCaiDinheiro.Text = "Dinheiro";
+            this.chbCaiDinheiro.UseVisualStyleBackColor = true;
+            // 
+            // txtCaiDescricao
+            // 
+            this.txtCaiDescricao.Location = new System.Drawing.Point(92, 130);
+            this.txtCaiDescricao.Multiline = true;
+            this.txtCaiDescricao.Name = "txtCaiDescricao";
+            this.txtCaiDescricao.Size = new System.Drawing.Size(561, 90);
+            this.txtCaiDescricao.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(23, 133);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Descrição:";
+            // 
+            // txtCaiNome
+            // 
+            this.txtCaiNome.Location = new System.Drawing.Point(92, 81);
+            this.txtCaiNome.Name = "txtCaiNome";
+            this.txtCaiNome.Size = new System.Drawing.Size(561, 20);
+            this.txtCaiNome.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(43, 84);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Nome:";
+            // 
+            // mktCaiCPF
+            // 
+            this.mktCaiCPF.Location = new System.Drawing.Point(488, 34);
+            this.mktCaiCPF.Name = "mktCaiCPF";
+            this.mktCaiCPF.Size = new System.Drawing.Size(165, 20);
+            this.mktCaiCPF.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(442, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "CPF:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(43, 37);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Código:";
+            // 
+            // txtCaiCódigo
+            // 
+            this.txtCaiCódigo.Location = new System.Drawing.Point(92, 34);
+            this.txtCaiCódigo.Name = "txtCaiCódigo";
+            this.txtCaiCódigo.Size = new System.Drawing.Size(189, 20);
+            this.txtCaiCódigo.TabIndex = 0;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(224, 107);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(115, 20);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Home / Caixa";
             // 
             // frmCaixa
             // 
@@ -497,8 +497,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tbpCaixa.ResumeLayout(false);
             this.tbpCaixa.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gpbCaixaPagamento.ResumeLayout(false);
+            this.gpbCaixaPagamento.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -523,25 +523,25 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tbpCaixa;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtCaiDescricao;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCaiNome;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mktCaiCPF;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCaiCódigo;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.GroupBox gpbCaixaPagamento;
+        private System.Windows.Forms.CheckBox chbCaiPix;
+        private System.Windows.Forms.CheckBox chbCaiDebito;
+        private System.Windows.Forms.CheckBox chbCaiCredito;
+        private System.Windows.Forms.CheckBox chbCaiDinheiro;
+        private System.Windows.Forms.Button btnCaiLimpar;
+        private System.Windows.Forms.Button btnCaiVoltar;
+        private System.Windows.Forms.Button btnCaiPesquisar;
+        private System.Windows.Forms.Button btnCaiRegistrar;
+        private System.Windows.Forms.TextBox txtCaiValorTotal;
     }
 }
