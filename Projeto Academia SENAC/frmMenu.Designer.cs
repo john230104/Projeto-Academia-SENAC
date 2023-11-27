@@ -33,11 +33,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnMenuCaixa = new System.Windows.Forms.Button();
+            this.btnMenuControle = new System.Windows.Forms.Button();
+            this.btnMenuAgend = new System.Windows.Forms.Button();
+            this.btnMenuCadastro = new System.Windows.Forms.Button();
+            this.btnMenuClose = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -46,7 +46,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Goldenrod;
-            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.btnMenuClose);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -78,10 +78,10 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.btnMenuCaixa);
+            this.panel3.Controls.Add(this.btnMenuControle);
+            this.panel3.Controls.Add(this.btnMenuAgend);
+            this.panel3.Controls.Add(this.btnMenuCadastro);
             this.panel3.Location = new System.Drawing.Point(0, 61);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 589);
@@ -89,82 +89,82 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Projeto_Academia_SENAC.Properties.Resources.GOLDFIT1;
-            this.pictureBox1.Location = new System.Drawing.Point(368, 173);
+            this.pictureBox1.Image = global::Projeto_Academia_SENAC.Properties.Resources.goldfit__2__removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(392, 191);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(393, 337);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // button4
+            // btnMenuCaixa
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::Projeto_Academia_SENAC.Properties.Resources.MONEY;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 220);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 66);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "CAIXA";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnMenuCaixa.FlatAppearance.BorderSize = 0;
+            this.btnMenuCaixa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenuCaixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuCaixa.Image = global::Projeto_Academia_SENAC.Properties.Resources.MONEY;
+            this.btnMenuCaixa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMenuCaixa.Location = new System.Drawing.Point(0, 220);
+            this.btnMenuCaixa.Name = "btnMenuCaixa";
+            this.btnMenuCaixa.Size = new System.Drawing.Size(200, 66);
+            this.btnMenuCaixa.TabIndex = 6;
+            this.btnMenuCaixa.Text = "CAIXA";
+            this.btnMenuCaixa.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnMenuControle
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::Projeto_Academia_SENAC.Properties.Resources.clipboard_120024__1_;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 148);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 66);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "   CONTROLE";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnMenuControle.FlatAppearance.BorderSize = 0;
+            this.btnMenuControle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenuControle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuControle.Image = global::Projeto_Academia_SENAC.Properties.Resources.clipboard_120024__1_;
+            this.btnMenuControle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMenuControle.Location = new System.Drawing.Point(0, 148);
+            this.btnMenuControle.Name = "btnMenuControle";
+            this.btnMenuControle.Size = new System.Drawing.Size(200, 66);
+            this.btnMenuControle.TabIndex = 5;
+            this.btnMenuControle.Text = "   CONTROLE";
+            this.btnMenuControle.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnMenuAgend
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::Projeto_Academia_SENAC.Properties.Resources.Calendario__1_;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 72);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 66);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "AGENDAMENTOS";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnMenuAgend.FlatAppearance.BorderSize = 0;
+            this.btnMenuAgend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenuAgend.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuAgend.Image = global::Projeto_Academia_SENAC.Properties.Resources.Calendario__1_;
+            this.btnMenuAgend.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMenuAgend.Location = new System.Drawing.Point(0, 72);
+            this.btnMenuAgend.Name = "btnMenuAgend";
+            this.btnMenuAgend.Size = new System.Drawing.Size(197, 66);
+            this.btnMenuAgend.TabIndex = 4;
+            this.btnMenuAgend.Text = "AGENDAMENTOS";
+            this.btnMenuAgend.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMenuAgend.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnMenuCadastro
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::Projeto_Academia_SENAC.Properties.Resources.Cadastro__1_;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 66);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "          CADASTROS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMenuCadastro.FlatAppearance.BorderSize = 0;
+            this.btnMenuCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenuCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuCadastro.Image = global::Projeto_Academia_SENAC.Properties.Resources.Cadastro__1_;
+            this.btnMenuCadastro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMenuCadastro.Location = new System.Drawing.Point(0, 0);
+            this.btnMenuCadastro.Name = "btnMenuCadastro";
+            this.btnMenuCadastro.Size = new System.Drawing.Size(197, 66);
+            this.btnMenuCadastro.TabIndex = 3;
+            this.btnMenuCadastro.Text = "          CADASTROS";
+            this.btnMenuCadastro.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnMenuClose
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = global::Projeto_Academia_SENAC.Properties.Resources.x;
-            this.button5.Location = new System.Drawing.Point(898, 14);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(40, 39);
-            this.button5.TabIndex = 3;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnMenuClose.FlatAppearance.BorderSize = 0;
+            this.btnMenuClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenuClose.Image = global::Projeto_Academia_SENAC.Properties.Resources.x;
+            this.btnMenuClose.Location = new System.Drawing.Point(898, 14);
+            this.btnMenuClose.Name = "btnMenuClose";
+            this.btnMenuClose.Size = new System.Drawing.Size(40, 39);
+            this.btnMenuClose.TabIndex = 3;
+            this.btnMenuClose.UseVisualStyleBackColor = true;
+            this.btnMenuClose.Click += new System.EventHandler(this.button5_Click);
             // 
             // frmMenu
             // 
@@ -193,11 +193,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnMenuCadastro;
+        private System.Windows.Forms.Button btnMenuCaixa;
+        private System.Windows.Forms.Button btnMenuControle;
+        private System.Windows.Forms.Button btnMenuAgend;
+        private System.Windows.Forms.Button btnMenuClose;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -16,7 +16,7 @@ namespace Projeto_Academia_SENAC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenu());
+            Application.Run(new frmLogin());
         }
     }
 }

@@ -29,168 +29,160 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tbcCadastro = new System.Windows.Forms.TabControl();
             this.tbpAlunos = new System.Windows.Forms.TabPage();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnCadAluApagar = new System.Windows.Forms.Button();
+            this.btnCadAluAlterar = new System.Windows.Forms.Button();
+            this.btnCadAluLimpar = new System.Windows.Forms.Button();
+            this.btnCadAluPesquisar = new System.Windows.Forms.Button();
+            this.btnCadAluVoltar = new System.Windows.Forms.Button();
+            this.btnCadAluCadastrar = new System.Windows.Forms.Button();
             this.Endereco = new System.Windows.Forms.GroupBox();
-            this.txtBairro = new System.Windows.Forms.TextBox();
-            this.txtComplemento = new System.Windows.Forms.TextBox();
+            this.txtCadAluBairro = new System.Windows.Forms.TextBox();
+            this.txtCadAluComplemento = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.cmbCidade = new System.Windows.Forms.ComboBox();
-            this.txtNumber = new System.Windows.Forms.TextBox();
+            this.cmbCadAluCidade = new System.Windows.Forms.ComboBox();
+            this.txtCadAluNumero = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.txtRua = new System.Windows.Forms.TextBox();
-            this.cmbEstado = new System.Windows.Forms.ComboBox();
-            this.mktCEP = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadAluRua = new System.Windows.Forms.TextBox();
+            this.cmbCadAluEstado = new System.Windows.Forms.ComboBox();
+            this.mktCadAluCEP = new System.Windows.Forms.MaskedTextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.mktCadAluDataCadastro = new System.Windows.Forms.MaskedTextBox();
+            this.mktCadAluDataNasc = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCadAluEmail = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.mktCadAluCelular = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mktCadAluCPF = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCadAluNome = new System.Windows.Forms.TextBox();
             this.tbpProdutos = new System.Windows.Forms.TabPage();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtCadProValorUni = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.mktCadProValidade = new System.Windows.Forms.MaskedTextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtCadProFabricante = new System.Windows.Forms.TextBox();
+            this.txtCadProFornecedor = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtCadProQuantidade = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtCadProCodigo = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
+            this.txtCadProDescricao = new System.Windows.Forms.TextBox();
+            this.btnCadProApagar = new System.Windows.Forms.Button();
+            this.btnCadProAlterar = new System.Windows.Forms.Button();
+            this.btnCadProLimpar = new System.Windows.Forms.Button();
+            this.btnCadProPesquisar = new System.Windows.Forms.Button();
+            this.btnCadProVoltar = new System.Windows.Forms.Button();
+            this.btnCadProCadastrar = new System.Windows.Forms.Button();
             this.tbpFornecedores = new System.Windows.Forms.TabPage();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
+            this.btnCadForApagar = new System.Windows.Forms.Button();
+            this.btnCadForAlterar = new System.Windows.Forms.Button();
+            this.btnCadForLimpar = new System.Windows.Forms.Button();
+            this.btnCadForPesquisar = new System.Windows.Forms.Button();
+            this.btnCadForVoltar = new System.Windows.Forms.Button();
+            this.btnCadForCadastrar = new System.Windows.Forms.Button();
+            this.mktCadForFone = new System.Windows.Forms.MaskedTextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.txtCadForEmail = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtCadForBairro = new System.Windows.Forms.TextBox();
+            this.txtCadForComplemento = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.cmbCadForCidade = new System.Windows.Forms.ComboBox();
+            this.txtCadForNumero = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadForRua = new System.Windows.Forms.TextBox();
+            this.cmbCadForEstado = new System.Windows.Forms.ComboBox();
+            this.mktCadForCEP = new System.Windows.Forms.MaskedTextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtCadForCodigo = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtCadForCNPJ = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtCadForRazaoSocial = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.tbpTerceirizados = new System.Windows.Forms.TabPage();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
+            this.btnCadTerApagar = new System.Windows.Forms.Button();
+            this.btnCadTerAlterar = new System.Windows.Forms.Button();
+            this.btnCadTerLimpar = new System.Windows.Forms.Button();
+            this.btnCadTerPesquisar = new System.Windows.Forms.Button();
+            this.btnCadTerVoltar = new System.Windows.Forms.Button();
+            this.btnCadTerCadastrar = new System.Windows.Forms.Button();
+            this.mktCadTerFone = new System.Windows.Forms.MaskedTextBox();
             this.label36 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.txtCadTerEmail = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.txtCadTerBairro = new System.Windows.Forms.TextBox();
+            this.txtCadTerComplemento = new System.Windows.Forms.TextBox();
             this.label38 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.cmbCadTerCidade = new System.Windows.Forms.ComboBox();
+            this.txtCadTerNumero = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.maskedTextBox9 = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadTerRua = new System.Windows.Forms.TextBox();
+            this.cmbCadTerEstado = new System.Windows.Forms.ComboBox();
+            this.mktCadTerCEP = new System.Windows.Forms.MaskedTextBox();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.txtCadTerCodigo = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.txtCadTerContato = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.txtCadTerCNPJ = new System.Windows.Forms.TextBox();
             this.label47 = new System.Windows.Forms.Label();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.txtCadTerRazaoSocial = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.tbpFuncionarios = new System.Windows.Forms.TabPage();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
+            this.btnCadFunApagar = new System.Windows.Forms.Button();
+            this.btnCadFunAlterar = new System.Windows.Forms.Button();
+            this.btnCadFunLimpar = new System.Windows.Forms.Button();
+            this.btnCadFunPesquisar = new System.Windows.Forms.Button();
+            this.btnCadFunVoltar = new System.Windows.Forms.Button();
+            this.btnCadFunCadastrar = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.txtCadFunBairro = new System.Windows.Forms.TextBox();
+            this.txtCadFunComplemento = new System.Windows.Forms.TextBox();
             this.label57 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.cmbCadFunCidade = new System.Windows.Forms.ComboBox();
+            this.txtCadFunNumero = new System.Windows.Forms.TextBox();
             this.label58 = new System.Windows.Forms.Label();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.maskedTextBox13 = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadFunRua = new System.Windows.Forms.TextBox();
+            this.cmbCadFunEstado = new System.Windows.Forms.ComboBox();
+            this.mktCadFunCEP = new System.Windows.Forms.MaskedTextBox();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox12 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox11 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.txtCadFunCodigo = new System.Windows.Forms.TextBox();
+            this.mktCadFunDataInicio = new System.Windows.Forms.MaskedTextBox();
+            this.mktCadFunDataNasc = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadFunEmail = new System.Windows.Forms.TextBox();
+            this.mktCadFunCPF = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadFunNome = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
@@ -200,24 +192,24 @@
             this.label50 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.tbpEquipamentos = new System.Windows.Forms.TabPage();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.maskedTextBox14 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.btnCadEqApagar = new System.Windows.Forms.Button();
+            this.btnCadEqAlterar = new System.Windows.Forms.Button();
+            this.btnCadEqLimpar = new System.Windows.Forms.Button();
+            this.btnCadEqPesquisar = new System.Windows.Forms.Button();
+            this.btnCadEqVoltar = new System.Windows.Forms.Button();
+            this.btnCadEqCadastrar = new System.Windows.Forms.Button();
+            this.mktCadEqDataCompra = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadEqEstrutura = new System.Windows.Forms.TextBox();
+            this.txtCadEqGarantia = new System.Windows.Forms.TextBox();
+            this.txtCadEqDescricao = new System.Windows.Forms.TextBox();
+            this.txtCadEqSolda = new System.Windows.Forms.TextBox();
             this.label74 = new System.Windows.Forms.Label();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.txtCadEqEstofamento = new System.Windows.Forms.TextBox();
+            this.txtCadEqLinha = new System.Windows.Forms.TextBox();
+            this.txtCadEqFabricante = new System.Windows.Forms.TextBox();
+            this.txtCadEqPeso = new System.Windows.Forms.TextBox();
+            this.txtCadEqModelo = new System.Windows.Forms.TextBox();
+            this.txtCadEqIdentificação = new System.Windows.Forms.TextBox();
             this.label73 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.label71 = new System.Windows.Forms.Label();
@@ -229,9 +221,17 @@
             this.label65 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.BtnCadClose = new System.Windows.Forms.Button();
+            this.btnCadCaixa = new System.Windows.Forms.Button();
+            this.btnCadControle = new System.Windows.Forms.Button();
+            this.btnCadAgendamento = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtCadForContato = new System.Windows.Forms.TextBox();
+            this.cmbCadFunCargo = new System.Windows.Forms.ComboBox();
+            this.mktCadFunCelular = new System.Windows.Forms.MaskedTextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.tbcCadastro.SuspendLayout();
             this.tbpAlunos.SuspendLayout();
             this.Endereco.SuspendLayout();
             this.tbpProdutos.SuspendLayout();
@@ -247,9 +247,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.btnCadCaixa);
+            this.panel3.Controls.Add(this.btnCadControle);
+            this.panel3.Controls.Add(this.btnCadAgendamento);
             this.panel3.Controls.Add(this.button1);
             this.panel3.Location = new System.Drawing.Point(0, 61);
             this.panel3.Name = "panel3";
@@ -257,66 +257,10 @@
             this.panel3.TabIndex = 3;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::Projeto_Academia_SENAC.Properties.Resources.MONEY;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(3, 220);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(197, 66);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "CAIXA";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::Projeto_Academia_SENAC.Properties.Resources.clipboard_120024__1_;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 148);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 66);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "   CONTROLE";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::Projeto_Academia_SENAC.Properties.Resources.Calendario__1_;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 72);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 66);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "AGENDAMENTOS";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::Projeto_Academia_SENAC.Properties.Resources.Cadastro__1_;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 66);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "          CADASTROS";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Goldenrod;
-            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.BtnCadClose);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -324,17 +268,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(950, 61);
             this.panel1.TabIndex = 4;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = global::Projeto_Academia_SENAC.Properties.Resources.x;
-            this.button5.Location = new System.Drawing.Point(882, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(40, 39);
-            this.button5.TabIndex = 3;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -356,41 +289,41 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "GOLDFIT";
             // 
-            // tabControl1
+            // tbcCadastro
             // 
-            this.tabControl1.Controls.Add(this.tbpAlunos);
-            this.tabControl1.Controls.Add(this.tbpProdutos);
-            this.tabControl1.Controls.Add(this.tbpFornecedores);
-            this.tabControl1.Controls.Add(this.tbpTerceirizados);
-            this.tabControl1.Controls.Add(this.tbpFuncionarios);
-            this.tabControl1.Controls.Add(this.tbpEquipamentos);
-            this.tabControl1.Location = new System.Drawing.Point(210, 133);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(728, 498);
-            this.tabControl1.TabIndex = 5;
+            this.tbcCadastro.Controls.Add(this.tbpAlunos);
+            this.tbcCadastro.Controls.Add(this.tbpProdutos);
+            this.tbcCadastro.Controls.Add(this.tbpFornecedores);
+            this.tbcCadastro.Controls.Add(this.tbpTerceirizados);
+            this.tbcCadastro.Controls.Add(this.tbpFuncionarios);
+            this.tbcCadastro.Controls.Add(this.tbpEquipamentos);
+            this.tbcCadastro.Location = new System.Drawing.Point(210, 133);
+            this.tbcCadastro.Name = "tbcCadastro";
+            this.tbcCadastro.SelectedIndex = 0;
+            this.tbcCadastro.Size = new System.Drawing.Size(728, 498);
+            this.tbcCadastro.TabIndex = 5;
             // 
             // tbpAlunos
             // 
-            this.tbpAlunos.Controls.Add(this.button11);
-            this.tbpAlunos.Controls.Add(this.button10);
-            this.tbpAlunos.Controls.Add(this.button9);
-            this.tbpAlunos.Controls.Add(this.button8);
-            this.tbpAlunos.Controls.Add(this.button7);
-            this.tbpAlunos.Controls.Add(this.button6);
+            this.tbpAlunos.Controls.Add(this.btnCadAluApagar);
+            this.tbpAlunos.Controls.Add(this.btnCadAluAlterar);
+            this.tbpAlunos.Controls.Add(this.btnCadAluLimpar);
+            this.tbpAlunos.Controls.Add(this.btnCadAluPesquisar);
+            this.tbpAlunos.Controls.Add(this.btnCadAluVoltar);
+            this.tbpAlunos.Controls.Add(this.btnCadAluCadastrar);
             this.tbpAlunos.Controls.Add(this.Endereco);
-            this.tbpAlunos.Controls.Add(this.maskedTextBox4);
-            this.tbpAlunos.Controls.Add(this.maskedTextBox3);
+            this.tbpAlunos.Controls.Add(this.mktCadAluDataCadastro);
+            this.tbpAlunos.Controls.Add(this.mktCadAluDataNasc);
             this.tbpAlunos.Controls.Add(this.label7);
             this.tbpAlunos.Controls.Add(this.label6);
-            this.tbpAlunos.Controls.Add(this.textBox2);
+            this.tbpAlunos.Controls.Add(this.txtCadAluEmail);
             this.tbpAlunos.Controls.Add(this.label5);
-            this.tbpAlunos.Controls.Add(this.maskedTextBox2);
+            this.tbpAlunos.Controls.Add(this.mktCadAluCelular);
             this.tbpAlunos.Controls.Add(this.label4);
-            this.tbpAlunos.Controls.Add(this.maskedTextBox1);
+            this.tbpAlunos.Controls.Add(this.mktCadAluCPF);
             this.tbpAlunos.Controls.Add(this.label3);
             this.tbpAlunos.Controls.Add(this.label2);
-            this.tbpAlunos.Controls.Add(this.textBox1);
+            this.tbpAlunos.Controls.Add(this.txtCadAluNome);
             this.tbpAlunos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbpAlunos.Location = new System.Drawing.Point(4, 22);
             this.tbpAlunos.Name = "tbpAlunos";
@@ -400,71 +333,71 @@
             this.tbpAlunos.Text = "ALUNOS";
             this.tbpAlunos.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // btnCadAluApagar
             // 
-            this.button11.Location = new System.Drawing.Point(46, 427);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 23;
-            this.button11.Text = "Apagar";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btnCadAluApagar.Location = new System.Drawing.Point(46, 427);
+            this.btnCadAluApagar.Name = "btnCadAluApagar";
+            this.btnCadAluApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadAluApagar.TabIndex = 23;
+            this.btnCadAluApagar.Text = "Apagar";
+            this.btnCadAluApagar.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnCadAluAlterar
             // 
-            this.button10.Location = new System.Drawing.Point(603, 368);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 22;
-            this.button10.Text = "Alterar";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnCadAluAlterar.Location = new System.Drawing.Point(603, 368);
+            this.btnCadAluAlterar.Name = "btnCadAluAlterar";
+            this.btnCadAluAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadAluAlterar.TabIndex = 22;
+            this.btnCadAluAlterar.Text = "Alterar";
+            this.btnCadAluAlterar.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnCadAluLimpar
             // 
-            this.button9.Location = new System.Drawing.Point(603, 427);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 21;
-            this.button9.Text = "Limpar";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnCadAluLimpar.Location = new System.Drawing.Point(603, 427);
+            this.btnCadAluLimpar.Name = "btnCadAluLimpar";
+            this.btnCadAluLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadAluLimpar.TabIndex = 21;
+            this.btnCadAluLimpar.Text = "Limpar";
+            this.btnCadAluLimpar.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnCadAluPesquisar
             // 
-            this.button8.Location = new System.Drawing.Point(329, 368);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 20;
-            this.button8.Text = "Pesquisar";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnCadAluPesquisar.Location = new System.Drawing.Point(329, 368);
+            this.btnCadAluPesquisar.Name = "btnCadAluPesquisar";
+            this.btnCadAluPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadAluPesquisar.TabIndex = 20;
+            this.btnCadAluPesquisar.Text = "Pesquisar";
+            this.btnCadAluPesquisar.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnCadAluVoltar
             // 
-            this.button7.Location = new System.Drawing.Point(329, 427);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Voltar";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnCadAluVoltar.Location = new System.Drawing.Point(329, 427);
+            this.btnCadAluVoltar.Name = "btnCadAluVoltar";
+            this.btnCadAluVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadAluVoltar.TabIndex = 19;
+            this.btnCadAluVoltar.Text = "Voltar";
+            this.btnCadAluVoltar.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnCadAluCadastrar
             // 
-            this.button6.Location = new System.Drawing.Point(46, 368);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 18;
-            this.button6.Text = "Cadastrar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnCadAluCadastrar.Location = new System.Drawing.Point(46, 368);
+            this.btnCadAluCadastrar.Name = "btnCadAluCadastrar";
+            this.btnCadAluCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadAluCadastrar.TabIndex = 18;
+            this.btnCadAluCadastrar.Text = "Cadastrar";
+            this.btnCadAluCadastrar.UseVisualStyleBackColor = true;
             // 
             // Endereco
             // 
-            this.Endereco.Controls.Add(this.txtBairro);
-            this.Endereco.Controls.Add(this.txtComplemento);
+            this.Endereco.Controls.Add(this.txtCadAluBairro);
+            this.Endereco.Controls.Add(this.txtCadAluComplemento);
             this.Endereco.Controls.Add(this.label13);
-            this.Endereco.Controls.Add(this.cmbCidade);
-            this.Endereco.Controls.Add(this.txtNumber);
+            this.Endereco.Controls.Add(this.cmbCadAluCidade);
+            this.Endereco.Controls.Add(this.txtCadAluNumero);
             this.Endereco.Controls.Add(this.label12);
-            this.Endereco.Controls.Add(this.txtRua);
-            this.Endereco.Controls.Add(this.cmbEstado);
-            this.Endereco.Controls.Add(this.mktCEP);
+            this.Endereco.Controls.Add(this.txtCadAluRua);
+            this.Endereco.Controls.Add(this.cmbCadAluEstado);
+            this.Endereco.Controls.Add(this.mktCadAluCEP);
             this.Endereco.Controls.Add(this.label11);
             this.Endereco.Controls.Add(this.label10);
             this.Endereco.Controls.Add(this.label14);
@@ -478,19 +411,19 @@
             this.Endereco.TabStop = false;
             this.Endereco.Text = "Endereço";
             // 
-            // txtBairro
+            // txtCadAluBairro
             // 
-            this.txtBairro.Location = new System.Drawing.Point(385, 113);
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(295, 22);
-            this.txtBairro.TabIndex = 13;
+            this.txtCadAluBairro.Location = new System.Drawing.Point(385, 113);
+            this.txtCadAluBairro.Name = "txtCadAluBairro";
+            this.txtCadAluBairro.Size = new System.Drawing.Size(295, 22);
+            this.txtCadAluBairro.TabIndex = 13;
             // 
-            // txtComplemento
+            // txtCadAluComplemento
             // 
-            this.txtComplemento.Location = new System.Drawing.Point(89, 113);
-            this.txtComplemento.Name = "txtComplemento";
-            this.txtComplemento.Size = new System.Drawing.Size(247, 22);
-            this.txtComplemento.TabIndex = 12;
+            this.txtCadAluComplemento.Location = new System.Drawing.Point(89, 113);
+            this.txtCadAluComplemento.Name = "txtCadAluComplemento";
+            this.txtCadAluComplemento.Size = new System.Drawing.Size(247, 22);
+            this.txtCadAluComplemento.TabIndex = 12;
             // 
             // label13
             // 
@@ -502,20 +435,20 @@
             this.label13.TabIndex = 11;
             this.label13.Text = "Cidade:";
             // 
-            // cmbCidade
+            // cmbCadAluCidade
             // 
-            this.cmbCidade.FormattingEnabled = true;
-            this.cmbCidade.Location = new System.Drawing.Point(306, 49);
-            this.cmbCidade.Name = "cmbCidade";
-            this.cmbCidade.Size = new System.Drawing.Size(374, 24);
-            this.cmbCidade.TabIndex = 10;
+            this.cmbCadAluCidade.FormattingEnabled = true;
+            this.cmbCadAluCidade.Location = new System.Drawing.Point(306, 49);
+            this.cmbCadAluCidade.Name = "cmbCadAluCidade";
+            this.cmbCadAluCidade.Size = new System.Drawing.Size(374, 24);
+            this.cmbCadAluCidade.TabIndex = 10;
             // 
-            // txtNumber
+            // txtCadAluNumero
             // 
-            this.txtNumber.Location = new System.Drawing.Point(624, 82);
-            this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(56, 22);
-            this.txtNumber.TabIndex = 9;
+            this.txtCadAluNumero.Location = new System.Drawing.Point(624, 82);
+            this.txtCadAluNumero.Name = "txtCadAluNumero";
+            this.txtCadAluNumero.Size = new System.Drawing.Size(56, 22);
+            this.txtCadAluNumero.TabIndex = 9;
             // 
             // label12
             // 
@@ -527,27 +460,27 @@
             this.label12.TabIndex = 8;
             this.label12.Text = "N°";
             // 
-            // txtRua
+            // txtCadAluRua
             // 
-            this.txtRua.Location = new System.Drawing.Point(89, 84);
-            this.txtRua.Name = "txtRua";
-            this.txtRua.Size = new System.Drawing.Size(502, 22);
-            this.txtRua.TabIndex = 7;
+            this.txtCadAluRua.Location = new System.Drawing.Point(89, 84);
+            this.txtCadAluRua.Name = "txtCadAluRua";
+            this.txtCadAluRua.Size = new System.Drawing.Size(502, 22);
+            this.txtCadAluRua.TabIndex = 7;
             // 
-            // cmbEstado
+            // cmbCadAluEstado
             // 
-            this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(89, 49);
-            this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(149, 24);
-            this.cmbEstado.TabIndex = 6;
+            this.cmbCadAluEstado.FormattingEnabled = true;
+            this.cmbCadAluEstado.Location = new System.Drawing.Point(89, 49);
+            this.cmbCadAluEstado.Name = "cmbCadAluEstado";
+            this.cmbCadAluEstado.Size = new System.Drawing.Size(149, 24);
+            this.cmbCadAluEstado.TabIndex = 6;
             // 
-            // mktCEP
+            // mktCadAluCEP
             // 
-            this.mktCEP.Location = new System.Drawing.Point(89, 23);
-            this.mktCEP.Name = "mktCEP";
-            this.mktCEP.Size = new System.Drawing.Size(149, 22);
-            this.mktCEP.TabIndex = 5;
+            this.mktCadAluCEP.Location = new System.Drawing.Point(89, 23);
+            this.mktCadAluCEP.Name = "mktCadAluCEP";
+            this.mktCadAluCEP.Size = new System.Drawing.Size(149, 22);
+            this.mktCadAluCEP.TabIndex = 5;
             // 
             // label11
             // 
@@ -599,19 +532,19 @@
             this.label16.TabIndex = 0;
             this.label16.Text = "CEP:";
             // 
-            // maskedTextBox4
+            // mktCadAluDataCadastro
             // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(547, 136);
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(157, 20);
-            this.maskedTextBox4.TabIndex = 15;
+            this.mktCadAluDataCadastro.Location = new System.Drawing.Point(547, 136);
+            this.mktCadAluDataCadastro.Name = "mktCadAluDataCadastro";
+            this.mktCadAluDataCadastro.Size = new System.Drawing.Size(157, 20);
+            this.mktCadAluDataCadastro.TabIndex = 15;
             // 
-            // maskedTextBox3
+            // mktCadAluDataNasc
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(147, 136);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(169, 20);
-            this.maskedTextBox3.TabIndex = 14;
+            this.mktCadAluDataNasc.Location = new System.Drawing.Point(147, 136);
+            this.mktCadAluDataNasc.Name = "mktCadAluDataNasc";
+            this.mktCadAluDataNasc.Size = new System.Drawing.Size(169, 20);
+            this.mktCadAluDataNasc.TabIndex = 14;
             // 
             // label7
             // 
@@ -631,12 +564,12 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Data de Nascimento:";
             // 
-            // textBox2
+            // txtCadAluEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(64, 83);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(280, 20);
-            this.textBox2.TabIndex = 7;
+            this.txtCadAluEmail.Location = new System.Drawing.Point(64, 83);
+            this.txtCadAluEmail.Name = "txtCadAluEmail";
+            this.txtCadAluEmail.Size = new System.Drawing.Size(280, 20);
+            this.txtCadAluEmail.TabIndex = 7;
             // 
             // label5
             // 
@@ -647,12 +580,12 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Email:";
             // 
-            // maskedTextBox2
+            // mktCadAluCelular
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(527, 83);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(177, 20);
-            this.maskedTextBox2.TabIndex = 5;
+            this.mktCadAluCelular.Location = new System.Drawing.Point(527, 83);
+            this.mktCadAluCelular.Name = "mktCadAluCelular";
+            this.mktCadAluCelular.Size = new System.Drawing.Size(177, 20);
+            this.mktCadAluCelular.TabIndex = 5;
             // 
             // label4
             // 
@@ -663,14 +596,14 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Celular:";
             // 
-            // maskedTextBox1
+            // mktCadAluCPF
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(563, 40);
-            this.maskedTextBox1.Mask = "___.___.___-__";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(141, 22);
-            this.maskedTextBox1.TabIndex = 3;
+            this.mktCadAluCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mktCadAluCPF.Location = new System.Drawing.Point(563, 40);
+            this.mktCadAluCPF.Mask = "___.___.___-__";
+            this.mktCadAluCPF.Name = "mktCadAluCPF";
+            this.mktCadAluCPF.Size = new System.Drawing.Size(141, 22);
+            this.mktCadAluCPF.TabIndex = 3;
             // 
             // label3
             // 
@@ -690,35 +623,35 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Nome:";
             // 
-            // textBox1
+            // txtCadAluNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(64, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(376, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtCadAluNome.Location = new System.Drawing.Point(64, 37);
+            this.txtCadAluNome.Name = "txtCadAluNome";
+            this.txtCadAluNome.Size = new System.Drawing.Size(376, 20);
+            this.txtCadAluNome.TabIndex = 0;
             // 
             // tbpProdutos
             // 
-            this.tbpProdutos.Controls.Add(this.textBox8);
+            this.tbpProdutos.Controls.Add(this.txtCadProValorUni);
             this.tbpProdutos.Controls.Add(this.label22);
-            this.tbpProdutos.Controls.Add(this.maskedTextBox5);
+            this.tbpProdutos.Controls.Add(this.mktCadProValidade);
             this.tbpProdutos.Controls.Add(this.label21);
-            this.tbpProdutos.Controls.Add(this.textBox7);
-            this.tbpProdutos.Controls.Add(this.textBox6);
+            this.tbpProdutos.Controls.Add(this.txtCadProFabricante);
+            this.tbpProdutos.Controls.Add(this.txtCadProFornecedor);
             this.tbpProdutos.Controls.Add(this.label20);
             this.tbpProdutos.Controls.Add(this.label19);
-            this.tbpProdutos.Controls.Add(this.textBox5);
+            this.tbpProdutos.Controls.Add(this.txtCadProQuantidade);
             this.tbpProdutos.Controls.Add(this.label18);
-            this.tbpProdutos.Controls.Add(this.textBox4);
+            this.tbpProdutos.Controls.Add(this.txtCadProCodigo);
             this.tbpProdutos.Controls.Add(this.label17);
             this.tbpProdutos.Controls.Add(this.label9);
-            this.tbpProdutos.Controls.Add(this.textBox3);
-            this.tbpProdutos.Controls.Add(this.button12);
-            this.tbpProdutos.Controls.Add(this.button13);
-            this.tbpProdutos.Controls.Add(this.button14);
-            this.tbpProdutos.Controls.Add(this.button15);
-            this.tbpProdutos.Controls.Add(this.button16);
-            this.tbpProdutos.Controls.Add(this.button17);
+            this.tbpProdutos.Controls.Add(this.txtCadProDescricao);
+            this.tbpProdutos.Controls.Add(this.btnCadProApagar);
+            this.tbpProdutos.Controls.Add(this.btnCadProAlterar);
+            this.tbpProdutos.Controls.Add(this.btnCadProLimpar);
+            this.tbpProdutos.Controls.Add(this.btnCadProPesquisar);
+            this.tbpProdutos.Controls.Add(this.btnCadProVoltar);
+            this.tbpProdutos.Controls.Add(this.btnCadProCadastrar);
             this.tbpProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbpProdutos.Location = new System.Drawing.Point(4, 22);
             this.tbpProdutos.Name = "tbpProdutos";
@@ -728,12 +661,12 @@
             this.tbpProdutos.Text = "PRODUTOS";
             this.tbpProdutos.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // txtCadProValorUni
             // 
-            this.textBox8.Location = new System.Drawing.Point(500, 264);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(195, 20);
-            this.textBox8.TabIndex = 56;
+            this.txtCadProValorUni.Location = new System.Drawing.Point(500, 264);
+            this.txtCadProValorUni.Name = "txtCadProValorUni";
+            this.txtCadProValorUni.Size = new System.Drawing.Size(195, 20);
+            this.txtCadProValorUni.TabIndex = 56;
             // 
             // label22
             // 
@@ -744,12 +677,12 @@
             this.label22.TabIndex = 55;
             this.label22.Text = "Valor Unitário:";
             // 
-            // maskedTextBox5
+            // mktCadProValidade
             // 
-            this.maskedTextBox5.Location = new System.Drawing.Point(98, 260);
-            this.maskedTextBox5.Name = "maskedTextBox5";
-            this.maskedTextBox5.Size = new System.Drawing.Size(155, 20);
-            this.maskedTextBox5.TabIndex = 54;
+            this.mktCadProValidade.Location = new System.Drawing.Point(98, 260);
+            this.mktCadProValidade.Name = "mktCadProValidade";
+            this.mktCadProValidade.Size = new System.Drawing.Size(155, 20);
+            this.mktCadProValidade.TabIndex = 54;
             // 
             // label21
             // 
@@ -760,19 +693,19 @@
             this.label21.TabIndex = 53;
             this.label21.Text = "Vaidade:";
             // 
-            // textBox7
+            // txtCadProFabricante
             // 
-            this.textBox7.Location = new System.Drawing.Point(484, 197);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(211, 20);
-            this.textBox7.TabIndex = 52;
+            this.txtCadProFabricante.Location = new System.Drawing.Point(484, 197);
+            this.txtCadProFabricante.Name = "txtCadProFabricante";
+            this.txtCadProFabricante.Size = new System.Drawing.Size(211, 20);
+            this.txtCadProFabricante.TabIndex = 52;
             // 
-            // textBox6
+            // txtCadProFornecedor
             // 
-            this.textBox6.Location = new System.Drawing.Point(98, 197);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(247, 20);
-            this.textBox6.TabIndex = 51;
+            this.txtCadProFornecedor.Location = new System.Drawing.Point(98, 197);
+            this.txtCadProFornecedor.Name = "txtCadProFornecedor";
+            this.txtCadProFornecedor.Size = new System.Drawing.Size(247, 20);
+            this.txtCadProFornecedor.TabIndex = 51;
             // 
             // label20
             // 
@@ -792,12 +725,12 @@
             this.label19.TabIndex = 49;
             this.label19.Text = "Fornecedor:";
             // 
-            // textBox5
+            // txtCadProQuantidade
             // 
-            this.textBox5.Location = new System.Drawing.Point(563, 20);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(138, 20);
-            this.textBox5.TabIndex = 48;
+            this.txtCadProQuantidade.Location = new System.Drawing.Point(563, 20);
+            this.txtCadProQuantidade.Name = "txtCadProQuantidade";
+            this.txtCadProQuantidade.Size = new System.Drawing.Size(138, 20);
+            this.txtCadProQuantidade.TabIndex = 48;
             // 
             // label18
             // 
@@ -808,12 +741,12 @@
             this.label18.TabIndex = 47;
             this.label18.Text = "Quantidade:";
             // 
-            // textBox4
+            // txtCadProCodigo
             // 
-            this.textBox4.Location = new System.Drawing.Point(98, 20);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(210, 20);
-            this.textBox4.TabIndex = 46;
+            this.txtCadProCodigo.Location = new System.Drawing.Point(98, 20);
+            this.txtCadProCodigo.Name = "txtCadProCodigo";
+            this.txtCadProCodigo.Size = new System.Drawing.Size(210, 20);
+            this.txtCadProCodigo.TabIndex = 46;
             // 
             // label17
             // 
@@ -833,88 +766,88 @@
             this.label9.TabIndex = 44;
             this.label9.Text = "Descrição:";
             // 
-            // textBox3
+            // txtCadProDescricao
             // 
-            this.textBox3.Location = new System.Drawing.Point(98, 74);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(603, 78);
-            this.textBox3.TabIndex = 43;
+            this.txtCadProDescricao.Location = new System.Drawing.Point(98, 74);
+            this.txtCadProDescricao.Multiline = true;
+            this.txtCadProDescricao.Name = "txtCadProDescricao";
+            this.txtCadProDescricao.Size = new System.Drawing.Size(603, 78);
+            this.txtCadProDescricao.TabIndex = 43;
             // 
-            // button12
+            // btnCadProApagar
             // 
-            this.button12.Location = new System.Drawing.Point(47, 420);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 42;
-            this.button12.Text = "Apagar";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnCadProApagar.Location = new System.Drawing.Point(47, 420);
+            this.btnCadProApagar.Name = "btnCadProApagar";
+            this.btnCadProApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadProApagar.TabIndex = 42;
+            this.btnCadProApagar.Text = "Apagar";
+            this.btnCadProApagar.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // btnCadProAlterar
             // 
-            this.button13.Location = new System.Drawing.Point(604, 361);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 41;
-            this.button13.Text = "Alterar";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btnCadProAlterar.Location = new System.Drawing.Point(604, 361);
+            this.btnCadProAlterar.Name = "btnCadProAlterar";
+            this.btnCadProAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadProAlterar.TabIndex = 41;
+            this.btnCadProAlterar.Text = "Alterar";
+            this.btnCadProAlterar.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // btnCadProLimpar
             // 
-            this.button14.Location = new System.Drawing.Point(604, 420);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 40;
-            this.button14.Text = "Limpar";
-            this.button14.UseVisualStyleBackColor = true;
+            this.btnCadProLimpar.Location = new System.Drawing.Point(604, 420);
+            this.btnCadProLimpar.Name = "btnCadProLimpar";
+            this.btnCadProLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadProLimpar.TabIndex = 40;
+            this.btnCadProLimpar.Text = "Limpar";
+            this.btnCadProLimpar.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // btnCadProPesquisar
             // 
-            this.button15.Location = new System.Drawing.Point(330, 361);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 39;
-            this.button15.Text = "Pesquisar";
-            this.button15.UseVisualStyleBackColor = true;
+            this.btnCadProPesquisar.Location = new System.Drawing.Point(330, 361);
+            this.btnCadProPesquisar.Name = "btnCadProPesquisar";
+            this.btnCadProPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadProPesquisar.TabIndex = 39;
+            this.btnCadProPesquisar.Text = "Pesquisar";
+            this.btnCadProPesquisar.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // btnCadProVoltar
             // 
-            this.button16.Location = new System.Drawing.Point(330, 420);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 38;
-            this.button16.Text = "Voltar";
-            this.button16.UseVisualStyleBackColor = true;
+            this.btnCadProVoltar.Location = new System.Drawing.Point(330, 420);
+            this.btnCadProVoltar.Name = "btnCadProVoltar";
+            this.btnCadProVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadProVoltar.TabIndex = 38;
+            this.btnCadProVoltar.Text = "Voltar";
+            this.btnCadProVoltar.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // btnCadProCadastrar
             // 
-            this.button17.Location = new System.Drawing.Point(47, 361);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 37;
-            this.button17.Text = "Cadastrar";
-            this.button17.UseVisualStyleBackColor = true;
+            this.btnCadProCadastrar.Location = new System.Drawing.Point(47, 361);
+            this.btnCadProCadastrar.Name = "btnCadProCadastrar";
+            this.btnCadProCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadProCadastrar.TabIndex = 37;
+            this.btnCadProCadastrar.Text = "Cadastrar";
+            this.btnCadProCadastrar.UseVisualStyleBackColor = true;
             // 
             // tbpFornecedores
             // 
-            this.tbpFornecedores.Controls.Add(this.button18);
-            this.tbpFornecedores.Controls.Add(this.button19);
-            this.tbpFornecedores.Controls.Add(this.button20);
-            this.tbpFornecedores.Controls.Add(this.button21);
-            this.tbpFornecedores.Controls.Add(this.button22);
-            this.tbpFornecedores.Controls.Add(this.button23);
-            this.tbpFornecedores.Controls.Add(this.maskedTextBox7);
+            this.tbpFornecedores.Controls.Add(this.txtCadForContato);
+            this.tbpFornecedores.Controls.Add(this.btnCadForApagar);
+            this.tbpFornecedores.Controls.Add(this.btnCadForAlterar);
+            this.tbpFornecedores.Controls.Add(this.btnCadForLimpar);
+            this.tbpFornecedores.Controls.Add(this.btnCadForPesquisar);
+            this.tbpFornecedores.Controls.Add(this.btnCadForVoltar);
+            this.tbpFornecedores.Controls.Add(this.btnCadForCadastrar);
+            this.tbpFornecedores.Controls.Add(this.mktCadForFone);
             this.tbpFornecedores.Controls.Add(this.label35);
-            this.tbpFornecedores.Controls.Add(this.textBox17);
+            this.tbpFornecedores.Controls.Add(this.txtCadForEmail);
             this.tbpFornecedores.Controls.Add(this.label34);
             this.tbpFornecedores.Controls.Add(this.groupBox1);
-            this.tbpFornecedores.Controls.Add(this.textBox12);
+            this.tbpFornecedores.Controls.Add(this.txtCadForCodigo);
             this.tbpFornecedores.Controls.Add(this.label26);
-            this.tbpFornecedores.Controls.Add(this.textBox11);
             this.tbpFornecedores.Controls.Add(this.label25);
-            this.tbpFornecedores.Controls.Add(this.textBox10);
+            this.tbpFornecedores.Controls.Add(this.txtCadForCNPJ);
             this.tbpFornecedores.Controls.Add(this.label24);
-            this.tbpFornecedores.Controls.Add(this.textBox9);
+            this.tbpFornecedores.Controls.Add(this.txtCadForRazaoSocial);
             this.tbpFornecedores.Controls.Add(this.label23);
             this.tbpFornecedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbpFornecedores.Location = new System.Drawing.Point(4, 22);
@@ -924,66 +857,66 @@
             this.tbpFornecedores.Text = "FORNECEDORES";
             this.tbpFornecedores.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // btnCadForApagar
             // 
-            this.button18.Location = new System.Drawing.Point(47, 409);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 48;
-            this.button18.Text = "Apagar";
-            this.button18.UseVisualStyleBackColor = true;
+            this.btnCadForApagar.Location = new System.Drawing.Point(47, 409);
+            this.btnCadForApagar.Name = "btnCadForApagar";
+            this.btnCadForApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadForApagar.TabIndex = 48;
+            this.btnCadForApagar.Text = "Apagar";
+            this.btnCadForApagar.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // btnCadForAlterar
             // 
-            this.button19.Location = new System.Drawing.Point(604, 350);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 47;
-            this.button19.Text = "Alterar";
-            this.button19.UseVisualStyleBackColor = true;
+            this.btnCadForAlterar.Location = new System.Drawing.Point(604, 350);
+            this.btnCadForAlterar.Name = "btnCadForAlterar";
+            this.btnCadForAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadForAlterar.TabIndex = 47;
+            this.btnCadForAlterar.Text = "Alterar";
+            this.btnCadForAlterar.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // btnCadForLimpar
             // 
-            this.button20.Location = new System.Drawing.Point(604, 409);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 46;
-            this.button20.Text = "Limpar";
-            this.button20.UseVisualStyleBackColor = true;
+            this.btnCadForLimpar.Location = new System.Drawing.Point(604, 409);
+            this.btnCadForLimpar.Name = "btnCadForLimpar";
+            this.btnCadForLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadForLimpar.TabIndex = 46;
+            this.btnCadForLimpar.Text = "Limpar";
+            this.btnCadForLimpar.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // btnCadForPesquisar
             // 
-            this.button21.Location = new System.Drawing.Point(330, 350);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 45;
-            this.button21.Text = "Pesquisar";
-            this.button21.UseVisualStyleBackColor = true;
+            this.btnCadForPesquisar.Location = new System.Drawing.Point(330, 350);
+            this.btnCadForPesquisar.Name = "btnCadForPesquisar";
+            this.btnCadForPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadForPesquisar.TabIndex = 45;
+            this.btnCadForPesquisar.Text = "Pesquisar";
+            this.btnCadForPesquisar.UseVisualStyleBackColor = true;
             // 
-            // button22
+            // btnCadForVoltar
             // 
-            this.button22.Location = new System.Drawing.Point(330, 409);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 44;
-            this.button22.Text = "Voltar";
-            this.button22.UseVisualStyleBackColor = true;
+            this.btnCadForVoltar.Location = new System.Drawing.Point(330, 409);
+            this.btnCadForVoltar.Name = "btnCadForVoltar";
+            this.btnCadForVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadForVoltar.TabIndex = 44;
+            this.btnCadForVoltar.Text = "Voltar";
+            this.btnCadForVoltar.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // btnCadForCadastrar
             // 
-            this.button23.Location = new System.Drawing.Point(47, 350);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 43;
-            this.button23.Text = "Cadastrar";
-            this.button23.UseVisualStyleBackColor = true;
+            this.btnCadForCadastrar.Location = new System.Drawing.Point(47, 350);
+            this.btnCadForCadastrar.Name = "btnCadForCadastrar";
+            this.btnCadForCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadForCadastrar.TabIndex = 43;
+            this.btnCadForCadastrar.Text = "Cadastrar";
+            this.btnCadForCadastrar.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox7
+            // mktCadForFone
             // 
-            this.maskedTextBox7.Location = new System.Drawing.Point(495, 110);
-            this.maskedTextBox7.Name = "maskedTextBox7";
-            this.maskedTextBox7.Size = new System.Drawing.Size(173, 20);
-            this.maskedTextBox7.TabIndex = 22;
+            this.mktCadForFone.Location = new System.Drawing.Point(495, 110);
+            this.mktCadForFone.Name = "mktCadForFone";
+            this.mktCadForFone.Size = new System.Drawing.Size(173, 20);
+            this.mktCadForFone.TabIndex = 22;
             // 
             // label35
             // 
@@ -994,12 +927,12 @@
             this.label35.TabIndex = 21;
             this.label35.Text = "Fone:";
             // 
-            // textBox17
+            // txtCadForEmail
             // 
-            this.textBox17.Location = new System.Drawing.Point(127, 110);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(290, 20);
-            this.textBox17.TabIndex = 20;
+            this.txtCadForEmail.Location = new System.Drawing.Point(127, 110);
+            this.txtCadForEmail.Name = "txtCadForEmail";
+            this.txtCadForEmail.Size = new System.Drawing.Size(290, 20);
+            this.txtCadForEmail.TabIndex = 20;
             // 
             // label34
             // 
@@ -1012,15 +945,15 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox13);
-            this.groupBox1.Controls.Add(this.textBox14);
+            this.groupBox1.Controls.Add(this.txtCadForBairro);
+            this.groupBox1.Controls.Add(this.txtCadForComplemento);
             this.groupBox1.Controls.Add(this.label27);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox15);
+            this.groupBox1.Controls.Add(this.cmbCadForCidade);
+            this.groupBox1.Controls.Add(this.txtCadForNumero);
             this.groupBox1.Controls.Add(this.label28);
-            this.groupBox1.Controls.Add(this.textBox16);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.maskedTextBox6);
+            this.groupBox1.Controls.Add(this.txtCadForRua);
+            this.groupBox1.Controls.Add(this.cmbCadForEstado);
+            this.groupBox1.Controls.Add(this.mktCadForCEP);
             this.groupBox1.Controls.Add(this.label29);
             this.groupBox1.Controls.Add(this.label30);
             this.groupBox1.Controls.Add(this.label31);
@@ -1034,19 +967,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Endereço";
             // 
-            // textBox13
+            // txtCadForBairro
             // 
-            this.textBox13.Location = new System.Drawing.Point(385, 113);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(295, 22);
-            this.textBox13.TabIndex = 13;
+            this.txtCadForBairro.Location = new System.Drawing.Point(385, 113);
+            this.txtCadForBairro.Name = "txtCadForBairro";
+            this.txtCadForBairro.Size = new System.Drawing.Size(295, 22);
+            this.txtCadForBairro.TabIndex = 13;
             // 
-            // textBox14
+            // txtCadForComplemento
             // 
-            this.textBox14.Location = new System.Drawing.Point(89, 113);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(247, 22);
-            this.textBox14.TabIndex = 12;
+            this.txtCadForComplemento.Location = new System.Drawing.Point(89, 113);
+            this.txtCadForComplemento.Name = "txtCadForComplemento";
+            this.txtCadForComplemento.Size = new System.Drawing.Size(247, 22);
+            this.txtCadForComplemento.TabIndex = 12;
             // 
             // label27
             // 
@@ -1058,20 +991,20 @@
             this.label27.TabIndex = 11;
             this.label27.Text = "Cidade:";
             // 
-            // comboBox1
+            // cmbCadForCidade
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(306, 49);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(374, 24);
-            this.comboBox1.TabIndex = 10;
+            this.cmbCadForCidade.FormattingEnabled = true;
+            this.cmbCadForCidade.Location = new System.Drawing.Point(306, 49);
+            this.cmbCadForCidade.Name = "cmbCadForCidade";
+            this.cmbCadForCidade.Size = new System.Drawing.Size(374, 24);
+            this.cmbCadForCidade.TabIndex = 10;
             // 
-            // textBox15
+            // txtCadForNumero
             // 
-            this.textBox15.Location = new System.Drawing.Point(624, 82);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(56, 22);
-            this.textBox15.TabIndex = 9;
+            this.txtCadForNumero.Location = new System.Drawing.Point(624, 82);
+            this.txtCadForNumero.Name = "txtCadForNumero";
+            this.txtCadForNumero.Size = new System.Drawing.Size(56, 22);
+            this.txtCadForNumero.TabIndex = 9;
             // 
             // label28
             // 
@@ -1083,27 +1016,27 @@
             this.label28.TabIndex = 8;
             this.label28.Text = "N°";
             // 
-            // textBox16
+            // txtCadForRua
             // 
-            this.textBox16.Location = new System.Drawing.Point(89, 84);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(502, 22);
-            this.textBox16.TabIndex = 7;
+            this.txtCadForRua.Location = new System.Drawing.Point(89, 84);
+            this.txtCadForRua.Name = "txtCadForRua";
+            this.txtCadForRua.Size = new System.Drawing.Size(502, 22);
+            this.txtCadForRua.TabIndex = 7;
             // 
-            // comboBox2
+            // cmbCadForEstado
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(89, 49);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(149, 24);
-            this.comboBox2.TabIndex = 6;
+            this.cmbCadForEstado.FormattingEnabled = true;
+            this.cmbCadForEstado.Location = new System.Drawing.Point(89, 49);
+            this.cmbCadForEstado.Name = "cmbCadForEstado";
+            this.cmbCadForEstado.Size = new System.Drawing.Size(149, 24);
+            this.cmbCadForEstado.TabIndex = 6;
             // 
-            // maskedTextBox6
+            // mktCadForCEP
             // 
-            this.maskedTextBox6.Location = new System.Drawing.Point(89, 23);
-            this.maskedTextBox6.Name = "maskedTextBox6";
-            this.maskedTextBox6.Size = new System.Drawing.Size(149, 22);
-            this.maskedTextBox6.TabIndex = 5;
+            this.mktCadForCEP.Location = new System.Drawing.Point(89, 23);
+            this.mktCadForCEP.Name = "mktCadForCEP";
+            this.mktCadForCEP.Size = new System.Drawing.Size(149, 22);
+            this.mktCadForCEP.TabIndex = 5;
             // 
             // label29
             // 
@@ -1155,12 +1088,12 @@
             this.label33.TabIndex = 0;
             this.label33.Text = "CEP:";
             // 
-            // textBox12
+            // txtCadForCodigo
             // 
-            this.textBox12.Location = new System.Drawing.Point(495, 63);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(173, 20);
-            this.textBox12.TabIndex = 7;
+            this.txtCadForCodigo.Location = new System.Drawing.Point(495, 63);
+            this.txtCadForCodigo.Name = "txtCadForCodigo";
+            this.txtCadForCodigo.Size = new System.Drawing.Size(173, 20);
+            this.txtCadForCodigo.TabIndex = 7;
             // 
             // label26
             // 
@@ -1171,13 +1104,6 @@
             this.label26.TabIndex = 6;
             this.label26.Text = "Código:";
             // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(127, 63);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(195, 20);
-            this.textBox11.TabIndex = 5;
-            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -1187,12 +1113,12 @@
             this.label25.TabIndex = 4;
             this.label25.Text = "Contato:";
             // 
-            // textBox10
+            // txtCadForCNPJ
             // 
-            this.textBox10.Location = new System.Drawing.Point(510, 25);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(158, 20);
-            this.textBox10.TabIndex = 3;
+            this.txtCadForCNPJ.Location = new System.Drawing.Point(510, 25);
+            this.txtCadForCNPJ.Name = "txtCadForCNPJ";
+            this.txtCadForCNPJ.Size = new System.Drawing.Size(158, 20);
+            this.txtCadForCNPJ.TabIndex = 3;
             // 
             // label24
             // 
@@ -1203,12 +1129,12 @@
             this.label24.TabIndex = 2;
             this.label24.Text = "CNPJ:";
             // 
-            // textBox9
+            // txtCadForRazaoSocial
             // 
-            this.textBox9.Location = new System.Drawing.Point(127, 25);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(290, 20);
-            this.textBox9.TabIndex = 1;
+            this.txtCadForRazaoSocial.Location = new System.Drawing.Point(127, 25);
+            this.txtCadForRazaoSocial.Name = "txtCadForRazaoSocial";
+            this.txtCadForRazaoSocial.Size = new System.Drawing.Size(290, 20);
+            this.txtCadForRazaoSocial.TabIndex = 1;
             // 
             // label23
             // 
@@ -1221,24 +1147,24 @@
             // 
             // tbpTerceirizados
             // 
-            this.tbpTerceirizados.Controls.Add(this.button24);
-            this.tbpTerceirizados.Controls.Add(this.button25);
-            this.tbpTerceirizados.Controls.Add(this.button26);
-            this.tbpTerceirizados.Controls.Add(this.button27);
-            this.tbpTerceirizados.Controls.Add(this.button28);
-            this.tbpTerceirizados.Controls.Add(this.button29);
-            this.tbpTerceirizados.Controls.Add(this.maskedTextBox8);
+            this.tbpTerceirizados.Controls.Add(this.btnCadTerApagar);
+            this.tbpTerceirizados.Controls.Add(this.btnCadTerAlterar);
+            this.tbpTerceirizados.Controls.Add(this.btnCadTerLimpar);
+            this.tbpTerceirizados.Controls.Add(this.btnCadTerPesquisar);
+            this.tbpTerceirizados.Controls.Add(this.btnCadTerVoltar);
+            this.tbpTerceirizados.Controls.Add(this.btnCadTerCadastrar);
+            this.tbpTerceirizados.Controls.Add(this.mktCadTerFone);
             this.tbpTerceirizados.Controls.Add(this.label36);
-            this.tbpTerceirizados.Controls.Add(this.textBox18);
+            this.tbpTerceirizados.Controls.Add(this.txtCadTerEmail);
             this.tbpTerceirizados.Controls.Add(this.label37);
             this.tbpTerceirizados.Controls.Add(this.groupBox2);
-            this.tbpTerceirizados.Controls.Add(this.textBox23);
+            this.tbpTerceirizados.Controls.Add(this.txtCadTerCodigo);
             this.tbpTerceirizados.Controls.Add(this.label45);
-            this.tbpTerceirizados.Controls.Add(this.textBox24);
+            this.tbpTerceirizados.Controls.Add(this.txtCadTerContato);
             this.tbpTerceirizados.Controls.Add(this.label46);
-            this.tbpTerceirizados.Controls.Add(this.textBox25);
+            this.tbpTerceirizados.Controls.Add(this.txtCadTerCNPJ);
             this.tbpTerceirizados.Controls.Add(this.label47);
-            this.tbpTerceirizados.Controls.Add(this.textBox26);
+            this.tbpTerceirizados.Controls.Add(this.txtCadTerRazaoSocial);
             this.tbpTerceirizados.Controls.Add(this.label48);
             this.tbpTerceirizados.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbpTerceirizados.Location = new System.Drawing.Point(4, 22);
@@ -1248,66 +1174,66 @@
             this.tbpTerceirizados.Text = "TERCEIRIZADOS";
             this.tbpTerceirizados.UseVisualStyleBackColor = true;
             // 
-            // button24
+            // btnCadTerApagar
             // 
-            this.button24.Location = new System.Drawing.Point(47, 417);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 67;
-            this.button24.Text = "Apagar";
-            this.button24.UseVisualStyleBackColor = true;
+            this.btnCadTerApagar.Location = new System.Drawing.Point(47, 417);
+            this.btnCadTerApagar.Name = "btnCadTerApagar";
+            this.btnCadTerApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadTerApagar.TabIndex = 67;
+            this.btnCadTerApagar.Text = "Apagar";
+            this.btnCadTerApagar.UseVisualStyleBackColor = true;
             // 
-            // button25
+            // btnCadTerAlterar
             // 
-            this.button25.Location = new System.Drawing.Point(604, 358);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(75, 23);
-            this.button25.TabIndex = 66;
-            this.button25.Text = "Alterar";
-            this.button25.UseVisualStyleBackColor = true;
+            this.btnCadTerAlterar.Location = new System.Drawing.Point(604, 358);
+            this.btnCadTerAlterar.Name = "btnCadTerAlterar";
+            this.btnCadTerAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadTerAlterar.TabIndex = 66;
+            this.btnCadTerAlterar.Text = "Alterar";
+            this.btnCadTerAlterar.UseVisualStyleBackColor = true;
             // 
-            // button26
+            // btnCadTerLimpar
             // 
-            this.button26.Location = new System.Drawing.Point(604, 417);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(75, 23);
-            this.button26.TabIndex = 65;
-            this.button26.Text = "Limpar";
-            this.button26.UseVisualStyleBackColor = true;
+            this.btnCadTerLimpar.Location = new System.Drawing.Point(604, 417);
+            this.btnCadTerLimpar.Name = "btnCadTerLimpar";
+            this.btnCadTerLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadTerLimpar.TabIndex = 65;
+            this.btnCadTerLimpar.Text = "Limpar";
+            this.btnCadTerLimpar.UseVisualStyleBackColor = true;
             // 
-            // button27
+            // btnCadTerPesquisar
             // 
-            this.button27.Location = new System.Drawing.Point(330, 358);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(75, 23);
-            this.button27.TabIndex = 64;
-            this.button27.Text = "Pesquisar";
-            this.button27.UseVisualStyleBackColor = true;
+            this.btnCadTerPesquisar.Location = new System.Drawing.Point(330, 358);
+            this.btnCadTerPesquisar.Name = "btnCadTerPesquisar";
+            this.btnCadTerPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadTerPesquisar.TabIndex = 64;
+            this.btnCadTerPesquisar.Text = "Pesquisar";
+            this.btnCadTerPesquisar.UseVisualStyleBackColor = true;
             // 
-            // button28
+            // btnCadTerVoltar
             // 
-            this.button28.Location = new System.Drawing.Point(330, 417);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(75, 23);
-            this.button28.TabIndex = 63;
-            this.button28.Text = "Voltar";
-            this.button28.UseVisualStyleBackColor = true;
+            this.btnCadTerVoltar.Location = new System.Drawing.Point(330, 417);
+            this.btnCadTerVoltar.Name = "btnCadTerVoltar";
+            this.btnCadTerVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadTerVoltar.TabIndex = 63;
+            this.btnCadTerVoltar.Text = "Voltar";
+            this.btnCadTerVoltar.UseVisualStyleBackColor = true;
             // 
-            // button29
+            // btnCadTerCadastrar
             // 
-            this.button29.Location = new System.Drawing.Point(47, 358);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(75, 23);
-            this.button29.TabIndex = 62;
-            this.button29.Text = "Cadastrar";
-            this.button29.UseVisualStyleBackColor = true;
+            this.btnCadTerCadastrar.Location = new System.Drawing.Point(47, 358);
+            this.btnCadTerCadastrar.Name = "btnCadTerCadastrar";
+            this.btnCadTerCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadTerCadastrar.TabIndex = 62;
+            this.btnCadTerCadastrar.Text = "Cadastrar";
+            this.btnCadTerCadastrar.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox8
+            // mktCadTerFone
             // 
-            this.maskedTextBox8.Location = new System.Drawing.Point(495, 118);
-            this.maskedTextBox8.Name = "maskedTextBox8";
-            this.maskedTextBox8.Size = new System.Drawing.Size(173, 20);
-            this.maskedTextBox8.TabIndex = 61;
+            this.mktCadTerFone.Location = new System.Drawing.Point(495, 118);
+            this.mktCadTerFone.Name = "mktCadTerFone";
+            this.mktCadTerFone.Size = new System.Drawing.Size(173, 20);
+            this.mktCadTerFone.TabIndex = 61;
             // 
             // label36
             // 
@@ -1318,12 +1244,12 @@
             this.label36.TabIndex = 60;
             this.label36.Text = "Fone:";
             // 
-            // textBox18
+            // txtCadTerEmail
             // 
-            this.textBox18.Location = new System.Drawing.Point(127, 118);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(290, 20);
-            this.textBox18.TabIndex = 59;
+            this.txtCadTerEmail.Location = new System.Drawing.Point(127, 118);
+            this.txtCadTerEmail.Name = "txtCadTerEmail";
+            this.txtCadTerEmail.Size = new System.Drawing.Size(290, 20);
+            this.txtCadTerEmail.TabIndex = 59;
             // 
             // label37
             // 
@@ -1336,15 +1262,15 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox19);
-            this.groupBox2.Controls.Add(this.textBox20);
+            this.groupBox2.Controls.Add(this.txtCadTerBairro);
+            this.groupBox2.Controls.Add(this.txtCadTerComplemento);
             this.groupBox2.Controls.Add(this.label38);
-            this.groupBox2.Controls.Add(this.comboBox3);
-            this.groupBox2.Controls.Add(this.textBox21);
+            this.groupBox2.Controls.Add(this.cmbCadTerCidade);
+            this.groupBox2.Controls.Add(this.txtCadTerNumero);
             this.groupBox2.Controls.Add(this.label39);
-            this.groupBox2.Controls.Add(this.textBox22);
-            this.groupBox2.Controls.Add(this.comboBox4);
-            this.groupBox2.Controls.Add(this.maskedTextBox9);
+            this.groupBox2.Controls.Add(this.txtCadTerRua);
+            this.groupBox2.Controls.Add(this.cmbCadTerEstado);
+            this.groupBox2.Controls.Add(this.mktCadTerCEP);
             this.groupBox2.Controls.Add(this.label40);
             this.groupBox2.Controls.Add(this.label41);
             this.groupBox2.Controls.Add(this.label42);
@@ -1358,19 +1284,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Endereço";
             // 
-            // textBox19
+            // txtCadTerBairro
             // 
-            this.textBox19.Location = new System.Drawing.Point(385, 113);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(295, 22);
-            this.textBox19.TabIndex = 13;
+            this.txtCadTerBairro.Location = new System.Drawing.Point(385, 113);
+            this.txtCadTerBairro.Name = "txtCadTerBairro";
+            this.txtCadTerBairro.Size = new System.Drawing.Size(295, 22);
+            this.txtCadTerBairro.TabIndex = 13;
             // 
-            // textBox20
+            // txtCadTerComplemento
             // 
-            this.textBox20.Location = new System.Drawing.Point(89, 113);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(247, 22);
-            this.textBox20.TabIndex = 12;
+            this.txtCadTerComplemento.Location = new System.Drawing.Point(89, 113);
+            this.txtCadTerComplemento.Name = "txtCadTerComplemento";
+            this.txtCadTerComplemento.Size = new System.Drawing.Size(247, 22);
+            this.txtCadTerComplemento.TabIndex = 12;
             // 
             // label38
             // 
@@ -1382,20 +1308,20 @@
             this.label38.TabIndex = 11;
             this.label38.Text = "Cidade:";
             // 
-            // comboBox3
+            // cmbCadTerCidade
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(306, 49);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(374, 24);
-            this.comboBox3.TabIndex = 10;
+            this.cmbCadTerCidade.FormattingEnabled = true;
+            this.cmbCadTerCidade.Location = new System.Drawing.Point(306, 49);
+            this.cmbCadTerCidade.Name = "cmbCadTerCidade";
+            this.cmbCadTerCidade.Size = new System.Drawing.Size(374, 24);
+            this.cmbCadTerCidade.TabIndex = 10;
             // 
-            // textBox21
+            // txtCadTerNumero
             // 
-            this.textBox21.Location = new System.Drawing.Point(624, 82);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(56, 22);
-            this.textBox21.TabIndex = 9;
+            this.txtCadTerNumero.Location = new System.Drawing.Point(624, 82);
+            this.txtCadTerNumero.Name = "txtCadTerNumero";
+            this.txtCadTerNumero.Size = new System.Drawing.Size(56, 22);
+            this.txtCadTerNumero.TabIndex = 9;
             // 
             // label39
             // 
@@ -1407,27 +1333,27 @@
             this.label39.TabIndex = 8;
             this.label39.Text = "N°";
             // 
-            // textBox22
+            // txtCadTerRua
             // 
-            this.textBox22.Location = new System.Drawing.Point(89, 84);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(502, 22);
-            this.textBox22.TabIndex = 7;
+            this.txtCadTerRua.Location = new System.Drawing.Point(89, 84);
+            this.txtCadTerRua.Name = "txtCadTerRua";
+            this.txtCadTerRua.Size = new System.Drawing.Size(502, 22);
+            this.txtCadTerRua.TabIndex = 7;
             // 
-            // comboBox4
+            // cmbCadTerEstado
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(89, 49);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(149, 24);
-            this.comboBox4.TabIndex = 6;
+            this.cmbCadTerEstado.FormattingEnabled = true;
+            this.cmbCadTerEstado.Location = new System.Drawing.Point(89, 49);
+            this.cmbCadTerEstado.Name = "cmbCadTerEstado";
+            this.cmbCadTerEstado.Size = new System.Drawing.Size(149, 24);
+            this.cmbCadTerEstado.TabIndex = 6;
             // 
-            // maskedTextBox9
+            // mktCadTerCEP
             // 
-            this.maskedTextBox9.Location = new System.Drawing.Point(89, 23);
-            this.maskedTextBox9.Name = "maskedTextBox9";
-            this.maskedTextBox9.Size = new System.Drawing.Size(149, 22);
-            this.maskedTextBox9.TabIndex = 5;
+            this.mktCadTerCEP.Location = new System.Drawing.Point(89, 23);
+            this.mktCadTerCEP.Name = "mktCadTerCEP";
+            this.mktCadTerCEP.Size = new System.Drawing.Size(149, 22);
+            this.mktCadTerCEP.TabIndex = 5;
             // 
             // label40
             // 
@@ -1479,12 +1405,12 @@
             this.label44.TabIndex = 0;
             this.label44.Text = "CEP:";
             // 
-            // textBox23
+            // txtCadTerCodigo
             // 
-            this.textBox23.Location = new System.Drawing.Point(495, 71);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(173, 20);
-            this.textBox23.TabIndex = 56;
+            this.txtCadTerCodigo.Location = new System.Drawing.Point(495, 71);
+            this.txtCadTerCodigo.Name = "txtCadTerCodigo";
+            this.txtCadTerCodigo.Size = new System.Drawing.Size(173, 20);
+            this.txtCadTerCodigo.TabIndex = 56;
             // 
             // label45
             // 
@@ -1495,12 +1421,12 @@
             this.label45.TabIndex = 55;
             this.label45.Text = "Código:";
             // 
-            // textBox24
+            // txtCadTerContato
             // 
-            this.textBox24.Location = new System.Drawing.Point(127, 71);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(195, 20);
-            this.textBox24.TabIndex = 54;
+            this.txtCadTerContato.Location = new System.Drawing.Point(127, 71);
+            this.txtCadTerContato.Name = "txtCadTerContato";
+            this.txtCadTerContato.Size = new System.Drawing.Size(195, 20);
+            this.txtCadTerContato.TabIndex = 54;
             // 
             // label46
             // 
@@ -1511,12 +1437,12 @@
             this.label46.TabIndex = 53;
             this.label46.Text = "Contato:";
             // 
-            // textBox25
+            // txtCadTerCNPJ
             // 
-            this.textBox25.Location = new System.Drawing.Point(510, 33);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(158, 20);
-            this.textBox25.TabIndex = 52;
+            this.txtCadTerCNPJ.Location = new System.Drawing.Point(510, 33);
+            this.txtCadTerCNPJ.Name = "txtCadTerCNPJ";
+            this.txtCadTerCNPJ.Size = new System.Drawing.Size(158, 20);
+            this.txtCadTerCNPJ.TabIndex = 52;
             // 
             // label47
             // 
@@ -1527,12 +1453,12 @@
             this.label47.TabIndex = 51;
             this.label47.Text = "CNPJ:";
             // 
-            // textBox26
+            // txtCadTerRazaoSocial
             // 
-            this.textBox26.Location = new System.Drawing.Point(127, 33);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(290, 20);
-            this.textBox26.TabIndex = 50;
+            this.txtCadTerRazaoSocial.Location = new System.Drawing.Point(127, 33);
+            this.txtCadTerRazaoSocial.Name = "txtCadTerRazaoSocial";
+            this.txtCadTerRazaoSocial.Size = new System.Drawing.Size(290, 20);
+            this.txtCadTerRazaoSocial.TabIndex = 50;
             // 
             // label48
             // 
@@ -1545,21 +1471,21 @@
             // 
             // tbpFuncionarios
             // 
-            this.tbpFuncionarios.Controls.Add(this.button30);
-            this.tbpFuncionarios.Controls.Add(this.button31);
-            this.tbpFuncionarios.Controls.Add(this.button32);
-            this.tbpFuncionarios.Controls.Add(this.button33);
-            this.tbpFuncionarios.Controls.Add(this.button34);
-            this.tbpFuncionarios.Controls.Add(this.button35);
+            this.tbpFuncionarios.Controls.Add(this.mktCadFunCelular);
+            this.tbpFuncionarios.Controls.Add(this.cmbCadFunCargo);
+            this.tbpFuncionarios.Controls.Add(this.btnCadFunApagar);
+            this.tbpFuncionarios.Controls.Add(this.btnCadFunAlterar);
+            this.tbpFuncionarios.Controls.Add(this.btnCadFunLimpar);
+            this.tbpFuncionarios.Controls.Add(this.btnCadFunPesquisar);
+            this.tbpFuncionarios.Controls.Add(this.btnCadFunVoltar);
+            this.tbpFuncionarios.Controls.Add(this.btnCadFunCadastrar);
             this.tbpFuncionarios.Controls.Add(this.groupBox3);
-            this.tbpFuncionarios.Controls.Add(this.textBox31);
-            this.tbpFuncionarios.Controls.Add(this.textBox30);
-            this.tbpFuncionarios.Controls.Add(this.maskedTextBox12);
-            this.tbpFuncionarios.Controls.Add(this.maskedTextBox11);
-            this.tbpFuncionarios.Controls.Add(this.textBox29);
-            this.tbpFuncionarios.Controls.Add(this.textBox28);
-            this.tbpFuncionarios.Controls.Add(this.maskedTextBox10);
-            this.tbpFuncionarios.Controls.Add(this.textBox27);
+            this.tbpFuncionarios.Controls.Add(this.txtCadFunCodigo);
+            this.tbpFuncionarios.Controls.Add(this.mktCadFunDataInicio);
+            this.tbpFuncionarios.Controls.Add(this.mktCadFunDataNasc);
+            this.tbpFuncionarios.Controls.Add(this.txtCadFunEmail);
+            this.tbpFuncionarios.Controls.Add(this.mktCadFunCPF);
+            this.tbpFuncionarios.Controls.Add(this.txtCadFunNome);
             this.tbpFuncionarios.Controls.Add(this.label56);
             this.tbpFuncionarios.Controls.Add(this.label55);
             this.tbpFuncionarios.Controls.Add(this.label54);
@@ -1576,71 +1502,71 @@
             this.tbpFuncionarios.Text = "FUNCIONARIOS";
             this.tbpFuncionarios.UseVisualStyleBackColor = true;
             // 
-            // button30
+            // btnCadFunApagar
             // 
-            this.button30.Location = new System.Drawing.Point(45, 434);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(75, 23);
-            this.button30.TabIndex = 73;
-            this.button30.Text = "Apagar";
-            this.button30.UseVisualStyleBackColor = true;
+            this.btnCadFunApagar.Location = new System.Drawing.Point(45, 434);
+            this.btnCadFunApagar.Name = "btnCadFunApagar";
+            this.btnCadFunApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadFunApagar.TabIndex = 73;
+            this.btnCadFunApagar.Text = "Apagar";
+            this.btnCadFunApagar.UseVisualStyleBackColor = true;
             // 
-            // button31
+            // btnCadFunAlterar
             // 
-            this.button31.Location = new System.Drawing.Point(602, 375);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 72;
-            this.button31.Text = "Alterar";
-            this.button31.UseVisualStyleBackColor = true;
+            this.btnCadFunAlterar.Location = new System.Drawing.Point(602, 375);
+            this.btnCadFunAlterar.Name = "btnCadFunAlterar";
+            this.btnCadFunAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadFunAlterar.TabIndex = 72;
+            this.btnCadFunAlterar.Text = "Alterar";
+            this.btnCadFunAlterar.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // btnCadFunLimpar
             // 
-            this.button32.Location = new System.Drawing.Point(602, 434);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(75, 23);
-            this.button32.TabIndex = 71;
-            this.button32.Text = "Limpar";
-            this.button32.UseVisualStyleBackColor = true;
+            this.btnCadFunLimpar.Location = new System.Drawing.Point(602, 434);
+            this.btnCadFunLimpar.Name = "btnCadFunLimpar";
+            this.btnCadFunLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadFunLimpar.TabIndex = 71;
+            this.btnCadFunLimpar.Text = "Limpar";
+            this.btnCadFunLimpar.UseVisualStyleBackColor = true;
             // 
-            // button33
+            // btnCadFunPesquisar
             // 
-            this.button33.Location = new System.Drawing.Point(328, 375);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(75, 23);
-            this.button33.TabIndex = 70;
-            this.button33.Text = "Pesquisar";
-            this.button33.UseVisualStyleBackColor = true;
+            this.btnCadFunPesquisar.Location = new System.Drawing.Point(328, 375);
+            this.btnCadFunPesquisar.Name = "btnCadFunPesquisar";
+            this.btnCadFunPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadFunPesquisar.TabIndex = 70;
+            this.btnCadFunPesquisar.Text = "Pesquisar";
+            this.btnCadFunPesquisar.UseVisualStyleBackColor = true;
             // 
-            // button34
+            // btnCadFunVoltar
             // 
-            this.button34.Location = new System.Drawing.Point(328, 434);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(75, 23);
-            this.button34.TabIndex = 69;
-            this.button34.Text = "Voltar";
-            this.button34.UseVisualStyleBackColor = true;
+            this.btnCadFunVoltar.Location = new System.Drawing.Point(328, 434);
+            this.btnCadFunVoltar.Name = "btnCadFunVoltar";
+            this.btnCadFunVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadFunVoltar.TabIndex = 69;
+            this.btnCadFunVoltar.Text = "Voltar";
+            this.btnCadFunVoltar.UseVisualStyleBackColor = true;
             // 
-            // button35
+            // btnCadFunCadastrar
             // 
-            this.button35.Location = new System.Drawing.Point(45, 375);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(75, 23);
-            this.button35.TabIndex = 68;
-            this.button35.Text = "Cadastrar";
-            this.button35.UseVisualStyleBackColor = true;
+            this.btnCadFunCadastrar.Location = new System.Drawing.Point(45, 375);
+            this.btnCadFunCadastrar.Name = "btnCadFunCadastrar";
+            this.btnCadFunCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadFunCadastrar.TabIndex = 68;
+            this.btnCadFunCadastrar.Text = "Cadastrar";
+            this.btnCadFunCadastrar.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox32);
-            this.groupBox3.Controls.Add(this.textBox33);
+            this.groupBox3.Controls.Add(this.txtCadFunBairro);
+            this.groupBox3.Controls.Add(this.txtCadFunComplemento);
             this.groupBox3.Controls.Add(this.label57);
-            this.groupBox3.Controls.Add(this.comboBox5);
-            this.groupBox3.Controls.Add(this.textBox34);
+            this.groupBox3.Controls.Add(this.cmbCadFunCidade);
+            this.groupBox3.Controls.Add(this.txtCadFunNumero);
             this.groupBox3.Controls.Add(this.label58);
-            this.groupBox3.Controls.Add(this.textBox35);
-            this.groupBox3.Controls.Add(this.comboBox6);
-            this.groupBox3.Controls.Add(this.maskedTextBox13);
+            this.groupBox3.Controls.Add(this.txtCadFunRua);
+            this.groupBox3.Controls.Add(this.cmbCadFunEstado);
+            this.groupBox3.Controls.Add(this.mktCadFunCEP);
             this.groupBox3.Controls.Add(this.label59);
             this.groupBox3.Controls.Add(this.label60);
             this.groupBox3.Controls.Add(this.label61);
@@ -1654,19 +1580,19 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Endereço";
             // 
-            // textBox32
+            // txtCadFunBairro
             // 
-            this.textBox32.Location = new System.Drawing.Point(385, 113);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(295, 22);
-            this.textBox32.TabIndex = 13;
+            this.txtCadFunBairro.Location = new System.Drawing.Point(385, 113);
+            this.txtCadFunBairro.Name = "txtCadFunBairro";
+            this.txtCadFunBairro.Size = new System.Drawing.Size(295, 22);
+            this.txtCadFunBairro.TabIndex = 13;
             // 
-            // textBox33
+            // txtCadFunComplemento
             // 
-            this.textBox33.Location = new System.Drawing.Point(89, 113);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(247, 22);
-            this.textBox33.TabIndex = 12;
+            this.txtCadFunComplemento.Location = new System.Drawing.Point(89, 113);
+            this.txtCadFunComplemento.Name = "txtCadFunComplemento";
+            this.txtCadFunComplemento.Size = new System.Drawing.Size(247, 22);
+            this.txtCadFunComplemento.TabIndex = 12;
             // 
             // label57
             // 
@@ -1678,20 +1604,20 @@
             this.label57.TabIndex = 11;
             this.label57.Text = "Cidade:";
             // 
-            // comboBox5
+            // cmbCadFunCidade
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(306, 49);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(374, 24);
-            this.comboBox5.TabIndex = 10;
+            this.cmbCadFunCidade.FormattingEnabled = true;
+            this.cmbCadFunCidade.Location = new System.Drawing.Point(306, 49);
+            this.cmbCadFunCidade.Name = "cmbCadFunCidade";
+            this.cmbCadFunCidade.Size = new System.Drawing.Size(374, 24);
+            this.cmbCadFunCidade.TabIndex = 10;
             // 
-            // textBox34
+            // txtCadFunNumero
             // 
-            this.textBox34.Location = new System.Drawing.Point(624, 82);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(56, 22);
-            this.textBox34.TabIndex = 9;
+            this.txtCadFunNumero.Location = new System.Drawing.Point(624, 82);
+            this.txtCadFunNumero.Name = "txtCadFunNumero";
+            this.txtCadFunNumero.Size = new System.Drawing.Size(56, 22);
+            this.txtCadFunNumero.TabIndex = 9;
             // 
             // label58
             // 
@@ -1703,27 +1629,27 @@
             this.label58.TabIndex = 8;
             this.label58.Text = "N°";
             // 
-            // textBox35
+            // txtCadFunRua
             // 
-            this.textBox35.Location = new System.Drawing.Point(89, 84);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(502, 22);
-            this.textBox35.TabIndex = 7;
+            this.txtCadFunRua.Location = new System.Drawing.Point(89, 84);
+            this.txtCadFunRua.Name = "txtCadFunRua";
+            this.txtCadFunRua.Size = new System.Drawing.Size(502, 22);
+            this.txtCadFunRua.TabIndex = 7;
             // 
-            // comboBox6
+            // cmbCadFunEstado
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(89, 49);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(149, 24);
-            this.comboBox6.TabIndex = 6;
+            this.cmbCadFunEstado.FormattingEnabled = true;
+            this.cmbCadFunEstado.Location = new System.Drawing.Point(89, 49);
+            this.cmbCadFunEstado.Name = "cmbCadFunEstado";
+            this.cmbCadFunEstado.Size = new System.Drawing.Size(149, 24);
+            this.cmbCadFunEstado.TabIndex = 6;
             // 
-            // maskedTextBox13
+            // mktCadFunCEP
             // 
-            this.maskedTextBox13.Location = new System.Drawing.Point(89, 23);
-            this.maskedTextBox13.Name = "maskedTextBox13";
-            this.maskedTextBox13.Size = new System.Drawing.Size(149, 22);
-            this.maskedTextBox13.TabIndex = 5;
+            this.mktCadFunCEP.Location = new System.Drawing.Point(89, 23);
+            this.mktCadFunCEP.Name = "mktCadFunCEP";
+            this.mktCadFunCEP.Size = new System.Drawing.Size(149, 22);
+            this.mktCadFunCEP.TabIndex = 5;
             // 
             // label59
             // 
@@ -1775,61 +1701,47 @@
             this.label63.TabIndex = 0;
             this.label63.Text = "CEP:";
             // 
-            // textBox31
+            // txtCadFunCodigo
             // 
-            this.textBox31.Location = new System.Drawing.Point(475, 182);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(205, 20);
-            this.textBox31.TabIndex = 15;
+            this.txtCadFunCodigo.Location = new System.Drawing.Point(84, 182);
+            this.txtCadFunCodigo.Name = "txtCadFunCodigo";
+            this.txtCadFunCodigo.Size = new System.Drawing.Size(225, 20);
+            this.txtCadFunCodigo.TabIndex = 14;
             // 
-            // textBox30
+            // mktCadFunDataInicio
             // 
-            this.textBox30.Location = new System.Drawing.Point(84, 182);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(225, 20);
-            this.textBox30.TabIndex = 14;
+            this.mktCadFunDataInicio.Location = new System.Drawing.Point(504, 132);
+            this.mktCadFunDataInicio.Name = "mktCadFunDataInicio";
+            this.mktCadFunDataInicio.Size = new System.Drawing.Size(176, 20);
+            this.mktCadFunDataInicio.TabIndex = 13;
             // 
-            // maskedTextBox12
+            // mktCadFunDataNasc
             // 
-            this.maskedTextBox12.Location = new System.Drawing.Point(504, 132);
-            this.maskedTextBox12.Name = "maskedTextBox12";
-            this.maskedTextBox12.Size = new System.Drawing.Size(176, 20);
-            this.maskedTextBox12.TabIndex = 13;
+            this.mktCadFunDataNasc.Location = new System.Drawing.Point(85, 132);
+            this.mktCadFunDataNasc.Name = "mktCadFunDataNasc";
+            this.mktCadFunDataNasc.Size = new System.Drawing.Size(181, 20);
+            this.mktCadFunDataNasc.TabIndex = 12;
             // 
-            // maskedTextBox11
+            // txtCadFunEmail
             // 
-            this.maskedTextBox11.Location = new System.Drawing.Point(85, 132);
-            this.maskedTextBox11.Name = "maskedTextBox11";
-            this.maskedTextBox11.Size = new System.Drawing.Size(181, 20);
-            this.maskedTextBox11.TabIndex = 12;
+            this.txtCadFunEmail.Location = new System.Drawing.Point(85, 83);
+            this.txtCadFunEmail.Name = "txtCadFunEmail";
+            this.txtCadFunEmail.Size = new System.Drawing.Size(324, 20);
+            this.txtCadFunEmail.TabIndex = 10;
             // 
-            // textBox29
+            // mktCadFunCPF
             // 
-            this.textBox29.Location = new System.Drawing.Point(504, 82);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(176, 20);
-            this.textBox29.TabIndex = 11;
+            this.mktCadFunCPF.Location = new System.Drawing.Point(521, 34);
+            this.mktCadFunCPF.Name = "mktCadFunCPF";
+            this.mktCadFunCPF.Size = new System.Drawing.Size(159, 20);
+            this.mktCadFunCPF.TabIndex = 9;
             // 
-            // textBox28
+            // txtCadFunNome
             // 
-            this.textBox28.Location = new System.Drawing.Point(85, 83);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(324, 20);
-            this.textBox28.TabIndex = 10;
-            // 
-            // maskedTextBox10
-            // 
-            this.maskedTextBox10.Location = new System.Drawing.Point(521, 34);
-            this.maskedTextBox10.Name = "maskedTextBox10";
-            this.maskedTextBox10.Size = new System.Drawing.Size(159, 20);
-            this.maskedTextBox10.TabIndex = 9;
-            // 
-            // textBox27
-            // 
-            this.textBox27.Location = new System.Drawing.Point(85, 34);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(374, 20);
-            this.textBox27.TabIndex = 8;
+            this.txtCadFunNome.Location = new System.Drawing.Point(85, 34);
+            this.txtCadFunNome.Name = "txtCadFunNome";
+            this.txtCadFunNome.Size = new System.Drawing.Size(374, 20);
+            this.txtCadFunNome.TabIndex = 8;
             // 
             // label56
             // 
@@ -1905,24 +1817,24 @@
             // 
             // tbpEquipamentos
             // 
-            this.tbpEquipamentos.Controls.Add(this.button36);
-            this.tbpEquipamentos.Controls.Add(this.button37);
-            this.tbpEquipamentos.Controls.Add(this.button38);
-            this.tbpEquipamentos.Controls.Add(this.button39);
-            this.tbpEquipamentos.Controls.Add(this.button40);
-            this.tbpEquipamentos.Controls.Add(this.button41);
-            this.tbpEquipamentos.Controls.Add(this.maskedTextBox14);
-            this.tbpEquipamentos.Controls.Add(this.textBox45);
-            this.tbpEquipamentos.Controls.Add(this.textBox44);
-            this.tbpEquipamentos.Controls.Add(this.textBox43);
-            this.tbpEquipamentos.Controls.Add(this.textBox42);
+            this.tbpEquipamentos.Controls.Add(this.btnCadEqApagar);
+            this.tbpEquipamentos.Controls.Add(this.btnCadEqAlterar);
+            this.tbpEquipamentos.Controls.Add(this.btnCadEqLimpar);
+            this.tbpEquipamentos.Controls.Add(this.btnCadEqPesquisar);
+            this.tbpEquipamentos.Controls.Add(this.btnCadEqVoltar);
+            this.tbpEquipamentos.Controls.Add(this.btnCadEqCadastrar);
+            this.tbpEquipamentos.Controls.Add(this.mktCadEqDataCompra);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqEstrutura);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqGarantia);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqDescricao);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqSolda);
             this.tbpEquipamentos.Controls.Add(this.label74);
-            this.tbpEquipamentos.Controls.Add(this.textBox41);
-            this.tbpEquipamentos.Controls.Add(this.textBox40);
-            this.tbpEquipamentos.Controls.Add(this.textBox39);
-            this.tbpEquipamentos.Controls.Add(this.textBox38);
-            this.tbpEquipamentos.Controls.Add(this.textBox37);
-            this.tbpEquipamentos.Controls.Add(this.textBox36);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqEstofamento);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqLinha);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqFabricante);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqPeso);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqModelo);
+            this.tbpEquipamentos.Controls.Add(this.txtCadEqIdentificação);
             this.tbpEquipamentos.Controls.Add(this.label73);
             this.tbpEquipamentos.Controls.Add(this.label72);
             this.tbpEquipamentos.Controls.Add(this.label71);
@@ -1941,95 +1853,95 @@
             this.tbpEquipamentos.Text = "EQUIPAMENTOS";
             this.tbpEquipamentos.UseVisualStyleBackColor = true;
             // 
-            // button36
+            // btnCadEqApagar
             // 
-            this.button36.Location = new System.Drawing.Point(36, 423);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(75, 23);
-            this.button36.TabIndex = 79;
-            this.button36.Text = "Apagar";
-            this.button36.UseVisualStyleBackColor = true;
+            this.btnCadEqApagar.Location = new System.Drawing.Point(36, 423);
+            this.btnCadEqApagar.Name = "btnCadEqApagar";
+            this.btnCadEqApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadEqApagar.TabIndex = 79;
+            this.btnCadEqApagar.Text = "Apagar";
+            this.btnCadEqApagar.UseVisualStyleBackColor = true;
             // 
-            // button37
+            // btnCadEqAlterar
             // 
-            this.button37.Location = new System.Drawing.Point(593, 364);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(75, 23);
-            this.button37.TabIndex = 78;
-            this.button37.Text = "Alterar";
-            this.button37.UseVisualStyleBackColor = true;
+            this.btnCadEqAlterar.Location = new System.Drawing.Point(593, 364);
+            this.btnCadEqAlterar.Name = "btnCadEqAlterar";
+            this.btnCadEqAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadEqAlterar.TabIndex = 78;
+            this.btnCadEqAlterar.Text = "Alterar";
+            this.btnCadEqAlterar.UseVisualStyleBackColor = true;
             // 
-            // button38
+            // btnCadEqLimpar
             // 
-            this.button38.Location = new System.Drawing.Point(593, 423);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(75, 23);
-            this.button38.TabIndex = 77;
-            this.button38.Text = "Limpar";
-            this.button38.UseVisualStyleBackColor = true;
+            this.btnCadEqLimpar.Location = new System.Drawing.Point(593, 423);
+            this.btnCadEqLimpar.Name = "btnCadEqLimpar";
+            this.btnCadEqLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadEqLimpar.TabIndex = 77;
+            this.btnCadEqLimpar.Text = "Limpar";
+            this.btnCadEqLimpar.UseVisualStyleBackColor = true;
             // 
-            // button39
+            // btnCadEqPesquisar
             // 
-            this.button39.Location = new System.Drawing.Point(319, 364);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(75, 23);
-            this.button39.TabIndex = 76;
-            this.button39.Text = "Pesquisar";
-            this.button39.UseVisualStyleBackColor = true;
+            this.btnCadEqPesquisar.Location = new System.Drawing.Point(319, 364);
+            this.btnCadEqPesquisar.Name = "btnCadEqPesquisar";
+            this.btnCadEqPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadEqPesquisar.TabIndex = 76;
+            this.btnCadEqPesquisar.Text = "Pesquisar";
+            this.btnCadEqPesquisar.UseVisualStyleBackColor = true;
             // 
-            // button40
+            // btnCadEqVoltar
             // 
-            this.button40.Location = new System.Drawing.Point(319, 423);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(75, 23);
-            this.button40.TabIndex = 75;
-            this.button40.Text = "Voltar";
-            this.button40.UseVisualStyleBackColor = true;
+            this.btnCadEqVoltar.Location = new System.Drawing.Point(319, 423);
+            this.btnCadEqVoltar.Name = "btnCadEqVoltar";
+            this.btnCadEqVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadEqVoltar.TabIndex = 75;
+            this.btnCadEqVoltar.Text = "Voltar";
+            this.btnCadEqVoltar.UseVisualStyleBackColor = true;
             // 
-            // button41
+            // btnCadEqCadastrar
             // 
-            this.button41.Location = new System.Drawing.Point(36, 364);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(75, 23);
-            this.button41.TabIndex = 74;
-            this.button41.Text = "Cadastrar";
-            this.button41.UseVisualStyleBackColor = true;
+            this.btnCadEqCadastrar.Location = new System.Drawing.Point(36, 364);
+            this.btnCadEqCadastrar.Name = "btnCadEqCadastrar";
+            this.btnCadEqCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadEqCadastrar.TabIndex = 74;
+            this.btnCadEqCadastrar.Text = "Cadastrar";
+            this.btnCadEqCadastrar.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox14
+            // mktCadEqDataCompra
             // 
-            this.maskedTextBox14.Location = new System.Drawing.Point(574, 199);
-            this.maskedTextBox14.Name = "maskedTextBox14";
-            this.maskedTextBox14.Size = new System.Drawing.Size(122, 20);
-            this.maskedTextBox14.TabIndex = 21;
+            this.mktCadEqDataCompra.Location = new System.Drawing.Point(574, 199);
+            this.mktCadEqDataCompra.Name = "mktCadEqDataCompra";
+            this.mktCadEqDataCompra.Size = new System.Drawing.Size(122, 20);
+            this.mktCadEqDataCompra.TabIndex = 21;
             // 
-            // textBox45
+            // txtCadEqEstrutura
             // 
-            this.textBox45.Location = new System.Drawing.Point(321, 199);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(185, 20);
-            this.textBox45.TabIndex = 20;
+            this.txtCadEqEstrutura.Location = new System.Drawing.Point(321, 199);
+            this.txtCadEqEstrutura.Name = "txtCadEqEstrutura";
+            this.txtCadEqEstrutura.Size = new System.Drawing.Size(185, 20);
+            this.txtCadEqEstrutura.TabIndex = 20;
             // 
-            // textBox44
+            // txtCadEqGarantia
             // 
-            this.textBox44.Location = new System.Drawing.Point(98, 199);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(138, 20);
-            this.textBox44.TabIndex = 19;
+            this.txtCadEqGarantia.Location = new System.Drawing.Point(98, 199);
+            this.txtCadEqGarantia.Name = "txtCadEqGarantia";
+            this.txtCadEqGarantia.Size = new System.Drawing.Size(138, 20);
+            this.txtCadEqGarantia.TabIndex = 19;
             // 
-            // textBox43
+            // txtCadEqDescricao
             // 
-            this.textBox43.Location = new System.Drawing.Point(98, 251);
-            this.textBox43.Multiline = true;
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(598, 79);
-            this.textBox43.TabIndex = 18;
+            this.txtCadEqDescricao.Location = new System.Drawing.Point(98, 251);
+            this.txtCadEqDescricao.Multiline = true;
+            this.txtCadEqDescricao.Name = "txtCadEqDescricao";
+            this.txtCadEqDescricao.Size = new System.Drawing.Size(598, 79);
+            this.txtCadEqDescricao.TabIndex = 18;
             // 
-            // textBox42
+            // txtCadEqSolda
             // 
-            this.textBox42.Location = new System.Drawing.Point(98, 146);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(217, 20);
-            this.textBox42.TabIndex = 17;
+            this.txtCadEqSolda.Location = new System.Drawing.Point(98, 146);
+            this.txtCadEqSolda.Name = "txtCadEqSolda";
+            this.txtCadEqSolda.Size = new System.Drawing.Size(217, 20);
+            this.txtCadEqSolda.TabIndex = 17;
             // 
             // label74
             // 
@@ -2040,47 +1952,47 @@
             this.label74.TabIndex = 16;
             this.label74.Text = "Data de \r\nCompra:";
             // 
-            // textBox41
+            // txtCadEqEstofamento
             // 
-            this.textBox41.Location = new System.Drawing.Point(424, 146);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(272, 20);
-            this.textBox41.TabIndex = 15;
+            this.txtCadEqEstofamento.Location = new System.Drawing.Point(424, 146);
+            this.txtCadEqEstofamento.Name = "txtCadEqEstofamento";
+            this.txtCadEqEstofamento.Size = new System.Drawing.Size(272, 20);
+            this.txtCadEqEstofamento.TabIndex = 15;
             // 
-            // textBox40
+            // txtCadEqLinha
             // 
-            this.textBox40.Location = new System.Drawing.Point(405, 95);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(291, 20);
-            this.textBox40.TabIndex = 14;
+            this.txtCadEqLinha.Location = new System.Drawing.Point(405, 95);
+            this.txtCadEqLinha.Name = "txtCadEqLinha";
+            this.txtCadEqLinha.Size = new System.Drawing.Size(291, 20);
+            this.txtCadEqLinha.TabIndex = 14;
             // 
-            // textBox39
+            // txtCadEqFabricante
             // 
-            this.textBox39.Location = new System.Drawing.Point(98, 95);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(240, 20);
-            this.textBox39.TabIndex = 13;
+            this.txtCadEqFabricante.Location = new System.Drawing.Point(98, 95);
+            this.txtCadEqFabricante.Name = "txtCadEqFabricante";
+            this.txtCadEqFabricante.Size = new System.Drawing.Size(240, 20);
+            this.txtCadEqFabricante.TabIndex = 13;
             // 
-            // textBox38
+            // txtCadEqPeso
             // 
-            this.textBox38.Location = new System.Drawing.Point(557, 47);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(139, 20);
-            this.textBox38.TabIndex = 12;
+            this.txtCadEqPeso.Location = new System.Drawing.Point(557, 47);
+            this.txtCadEqPeso.Name = "txtCadEqPeso";
+            this.txtCadEqPeso.Size = new System.Drawing.Size(139, 20);
+            this.txtCadEqPeso.TabIndex = 12;
             // 
-            // textBox37
+            // txtCadEqModelo
             // 
-            this.textBox37.Location = new System.Drawing.Point(360, 47);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(146, 20);
-            this.textBox37.TabIndex = 11;
+            this.txtCadEqModelo.Location = new System.Drawing.Point(360, 47);
+            this.txtCadEqModelo.Name = "txtCadEqModelo";
+            this.txtCadEqModelo.Size = new System.Drawing.Size(146, 20);
+            this.txtCadEqModelo.TabIndex = 11;
             // 
-            // textBox36
+            // txtCadEqIdentificação
             // 
-            this.textBox36.Location = new System.Drawing.Point(137, 47);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(159, 20);
-            this.textBox36.TabIndex = 10;
+            this.txtCadEqIdentificação.Location = new System.Drawing.Point(137, 47);
+            this.txtCadEqIdentificação.Name = "txtCadEqIdentificação";
+            this.txtCadEqIdentificação.Size = new System.Drawing.Size(159, 20);
+            this.txtCadEqIdentificação.TabIndex = 10;
             // 
             // label73
             // 
@@ -2182,13 +2094,103 @@
             this.label8.TabIndex = 6;
             this.label8.Text = "Home / Cadastros";
             // 
+            // BtnCadClose
+            // 
+            this.BtnCadClose.FlatAppearance.BorderSize = 0;
+            this.BtnCadClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCadClose.Image = global::Projeto_Academia_SENAC.Properties.Resources.x;
+            this.BtnCadClose.Location = new System.Drawing.Point(882, 12);
+            this.BtnCadClose.Name = "BtnCadClose";
+            this.BtnCadClose.Size = new System.Drawing.Size(40, 39);
+            this.BtnCadClose.TabIndex = 3;
+            this.BtnCadClose.UseVisualStyleBackColor = true;
+            // 
+            // btnCadCaixa
+            // 
+            this.btnCadCaixa.FlatAppearance.BorderSize = 0;
+            this.btnCadCaixa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadCaixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadCaixa.Image = global::Projeto_Academia_SENAC.Properties.Resources.MONEY;
+            this.btnCadCaixa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCadCaixa.Location = new System.Drawing.Point(3, 220);
+            this.btnCadCaixa.Name = "btnCadCaixa";
+            this.btnCadCaixa.Size = new System.Drawing.Size(197, 66);
+            this.btnCadCaixa.TabIndex = 6;
+            this.btnCadCaixa.Text = "CAIXA";
+            this.btnCadCaixa.UseVisualStyleBackColor = true;
+            // 
+            // btnCadControle
+            // 
+            this.btnCadControle.FlatAppearance.BorderSize = 0;
+            this.btnCadControle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadControle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadControle.Image = global::Projeto_Academia_SENAC.Properties.Resources.clipboard_120024__1_;
+            this.btnCadControle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCadControle.Location = new System.Drawing.Point(0, 148);
+            this.btnCadControle.Name = "btnCadControle";
+            this.btnCadControle.Size = new System.Drawing.Size(200, 66);
+            this.btnCadControle.TabIndex = 5;
+            this.btnCadControle.Text = "   CONTROLE";
+            this.btnCadControle.UseVisualStyleBackColor = true;
+            // 
+            // btnCadAgendamento
+            // 
+            this.btnCadAgendamento.FlatAppearance.BorderSize = 0;
+            this.btnCadAgendamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadAgendamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadAgendamento.Image = global::Projeto_Academia_SENAC.Properties.Resources.Calendario__1_;
+            this.btnCadAgendamento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCadAgendamento.Location = new System.Drawing.Point(0, 72);
+            this.btnCadAgendamento.Name = "btnCadAgendamento";
+            this.btnCadAgendamento.Size = new System.Drawing.Size(197, 66);
+            this.btnCadAgendamento.TabIndex = 4;
+            this.btnCadAgendamento.Text = "AGENDAMENTOS";
+            this.btnCadAgendamento.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCadAgendamento.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::Projeto_Academia_SENAC.Properties.Resources.Cadastro__1_;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 66);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "          CADASTROS";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // txtCadForContato
+            // 
+            this.txtCadForContato.Location = new System.Drawing.Point(127, 63);
+            this.txtCadForContato.Name = "txtCadForContato";
+            this.txtCadForContato.Size = new System.Drawing.Size(234, 20);
+            this.txtCadForContato.TabIndex = 49;
+            this.txtCadForContato.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // cmbCadFunCargo
+            // 
+            this.cmbCadFunCargo.FormattingEnabled = true;
+            this.cmbCadFunCargo.Location = new System.Drawing.Point(465, 182);
+            this.cmbCadFunCargo.Name = "cmbCadFunCargo";
+            this.cmbCadFunCargo.Size = new System.Drawing.Size(212, 21);
+            this.cmbCadFunCargo.TabIndex = 74;
+            // 
+            // mktCadFunCelular
+            // 
+            this.mktCadFunCelular.Location = new System.Drawing.Point(504, 82);
+            this.mktCadFunCelular.Name = "mktCadFunCelular";
+            this.mktCadFunCelular.Size = new System.Drawing.Size(176, 20);
+            this.mktCadFunCelular.TabIndex = 75;
+            // 
             // frmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(950, 650);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tbcCadastro);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -2198,7 +2200,7 @@
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.tbcCadastro.ResumeLayout(false);
             this.tbpAlunos.ResumeLayout(false);
             this.tbpAlunos.PerformLayout();
             this.Endereco.ResumeLayout(false);
@@ -2227,170 +2229,167 @@
         #endregion
 
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCadCaixa;
+        private System.Windows.Forms.Button btnCadControle;
+        private System.Windows.Forms.Button btnCadAgendamento;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button BtnCadClose;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tbcCadastro;
         private System.Windows.Forms.TabPage tbpAlunos;
         private System.Windows.Forms.TabPage tbpProdutos;
         private System.Windows.Forms.TabPage tbpFornecedores;
         private System.Windows.Forms.TabPage tbpTerceirizados;
         private System.Windows.Forms.TabPage tbpFuncionarios;
         private System.Windows.Forms.TabPage tbpEquipamentos;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnCadAluApagar;
+        private System.Windows.Forms.Button btnCadAluAlterar;
+        private System.Windows.Forms.Button btnCadAluLimpar;
+        private System.Windows.Forms.Button btnCadAluPesquisar;
+        private System.Windows.Forms.Button btnCadAluVoltar;
+        private System.Windows.Forms.Button btnCadAluCadastrar;
         private System.Windows.Forms.GroupBox Endereco;
-        private System.Windows.Forms.TextBox txtBairro;
-        private System.Windows.Forms.TextBox txtComplemento;
+        private System.Windows.Forms.TextBox txtCadAluBairro;
+        private System.Windows.Forms.TextBox txtCadAluComplemento;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox cmbCidade;
-        private System.Windows.Forms.TextBox txtNumber;
+        private System.Windows.Forms.ComboBox cmbCadAluCidade;
+        private System.Windows.Forms.TextBox txtCadAluNumero;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtRua;
-        private System.Windows.Forms.ComboBox cmbEstado;
-        private System.Windows.Forms.MaskedTextBox mktCEP;
+        private System.Windows.Forms.TextBox txtCadAluRua;
+        private System.Windows.Forms.ComboBox cmbCadAluEstado;
+        private System.Windows.Forms.MaskedTextBox mktCadAluCEP;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.MaskedTextBox mktCadAluDataCadastro;
+        private System.Windows.Forms.MaskedTextBox mktCadAluDataNasc;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCadAluEmail;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox mktCadAluCelular;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mktCadAluCPF;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.TextBox txtCadAluNome;
+        private System.Windows.Forms.Button btnCadProApagar;
+        private System.Windows.Forms.Button btnCadProAlterar;
+        private System.Windows.Forms.Button btnCadProLimpar;
+        private System.Windows.Forms.Button btnCadProPesquisar;
+        private System.Windows.Forms.Button btnCadProVoltar;
+        private System.Windows.Forms.Button btnCadProCadastrar;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtCadProValorUni;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
+        private System.Windows.Forms.MaskedTextBox mktCadProValidade;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtCadProFabricante;
+        private System.Windows.Forms.TextBox txtCadProFornecedor;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtCadProQuantidade;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtCadProCodigo;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCadProDescricao;
+        private System.Windows.Forms.TextBox txtCadForRazaoSocial;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtCadForCodigo;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtCadForCNPJ;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox7;
+        private System.Windows.Forms.Button btnCadForApagar;
+        private System.Windows.Forms.Button btnCadForAlterar;
+        private System.Windows.Forms.Button btnCadForLimpar;
+        private System.Windows.Forms.Button btnCadForPesquisar;
+        private System.Windows.Forms.Button btnCadForVoltar;
+        private System.Windows.Forms.Button btnCadForCadastrar;
+        private System.Windows.Forms.MaskedTextBox mktCadForFone;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox txtCadForEmail;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtCadForBairro;
+        private System.Windows.Forms.TextBox txtCadForComplemento;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.ComboBox cmbCadForCidade;
+        private System.Windows.Forms.TextBox txtCadForNumero;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox6;
+        private System.Windows.Forms.TextBox txtCadForRua;
+        private System.Windows.Forms.ComboBox cmbCadForEstado;
+        private System.Windows.Forms.MaskedTextBox mktCadForCEP;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox8;
+        private System.Windows.Forms.Button btnCadTerApagar;
+        private System.Windows.Forms.Button btnCadTerAlterar;
+        private System.Windows.Forms.Button btnCadTerLimpar;
+        private System.Windows.Forms.Button btnCadTerPesquisar;
+        private System.Windows.Forms.Button btnCadTerVoltar;
+        private System.Windows.Forms.Button btnCadTerCadastrar;
+        private System.Windows.Forms.MaskedTextBox mktCadTerFone;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox txtCadTerEmail;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox txtCadTerBairro;
+        private System.Windows.Forms.TextBox txtCadTerComplemento;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.ComboBox cmbCadTerCidade;
+        private System.Windows.Forms.TextBox txtCadTerNumero;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox9;
+        private System.Windows.Forms.TextBox txtCadTerRua;
+        private System.Windows.Forms.ComboBox cmbCadTerEstado;
+        private System.Windows.Forms.MaskedTextBox mktCadTerCEP;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox txtCadTerCodigo;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox txtCadTerContato;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox txtCadTerCNPJ;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox txtCadTerRazaoSocial;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button btnCadFunApagar;
+        private System.Windows.Forms.Button btnCadFunAlterar;
+        private System.Windows.Forms.Button btnCadFunLimpar;
+        private System.Windows.Forms.Button btnCadFunPesquisar;
+        private System.Windows.Forms.Button btnCadFunVoltar;
+        private System.Windows.Forms.Button btnCadFunCadastrar;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox txtCadFunBairro;
+        private System.Windows.Forms.TextBox txtCadFunComplemento;
         private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.ComboBox cmbCadFunCidade;
+        private System.Windows.Forms.TextBox txtCadFunNumero;
         private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox13;
+        private System.Windows.Forms.TextBox txtCadFunRua;
+        private System.Windows.Forms.ComboBox cmbCadFunEstado;
+        private System.Windows.Forms.MaskedTextBox mktCadFunCEP;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox12;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox11;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox10;
-        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox txtCadFunCodigo;
+        private System.Windows.Forms.MaskedTextBox mktCadFunDataInicio;
+        private System.Windows.Forms.MaskedTextBox mktCadFunDataNasc;
+        private System.Windows.Forms.TextBox txtCadFunEmail;
+        private System.Windows.Forms.MaskedTextBox mktCadFunCPF;
+        private System.Windows.Forms.TextBox txtCadFunNome;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label54;
@@ -2404,28 +2403,31 @@
         private System.Windows.Forms.Label label66;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox14;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.Button btnCadEqApagar;
+        private System.Windows.Forms.Button btnCadEqAlterar;
+        private System.Windows.Forms.Button btnCadEqLimpar;
+        private System.Windows.Forms.Button btnCadEqPesquisar;
+        private System.Windows.Forms.Button btnCadEqVoltar;
+        private System.Windows.Forms.Button btnCadEqCadastrar;
+        private System.Windows.Forms.MaskedTextBox mktCadEqDataCompra;
+        private System.Windows.Forms.TextBox txtCadEqEstrutura;
+        private System.Windows.Forms.TextBox txtCadEqGarantia;
+        private System.Windows.Forms.TextBox txtCadEqDescricao;
+        private System.Windows.Forms.TextBox txtCadEqSolda;
         private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox txtCadEqEstofamento;
+        private System.Windows.Forms.TextBox txtCadEqLinha;
+        private System.Windows.Forms.TextBox txtCadEqFabricante;
+        private System.Windows.Forms.TextBox txtCadEqPeso;
+        private System.Windows.Forms.TextBox txtCadEqModelo;
+        private System.Windows.Forms.TextBox txtCadEqIdentificação;
         private System.Windows.Forms.Label label73;
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.TextBox txtCadForContato;
+        private System.Windows.Forms.ComboBox cmbCadFunCargo;
+        private System.Windows.Forms.MaskedTextBox mktCadFunCelular;
     }
 }

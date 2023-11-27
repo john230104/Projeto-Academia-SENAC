@@ -26,5 +26,10 @@ namespace Projeto_Academia_SENAC
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
