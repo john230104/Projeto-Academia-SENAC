@@ -70,17 +70,65 @@
     <Compile Include="frmCaixa.Designer.cs">
       <DependentUpon>frmCaixa.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCaixaVisualizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaixaVisualizador.Designer.cs">
+      <DependentUpon>frmCaixaVisualizador.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmControle.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmControle.Designer.cs">
       <DependentUpon>frmControle.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmControledeAcesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControledeAcesso.Designer.cs">
+      <DependentUpon>frmControledeAcesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmControledePonto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControledePonto.Designer.cs">
+      <DependentUpon>frmControledePonto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipamento.Designer.cs">
+      <DependentUpon>frmEquipamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFornecedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFornecedores.Designer.cs">
+      <DependentUpon>frmFornecedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFuncionarios.Designer.cs">
+      <DependentUpon>frmFuncionarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProdutos.Designer.cs">
+      <DependentUpon>frmProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTerceirizados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTerceirizados.Designer.cs">
+      <DependentUpon>frmTerceirizados.cs</DependentUpon>
     </Compile>
     <Compile Include="T:\Cursos Livres\9900272735_APRENDIZAGEM_TF_23_T14112024\Alunos\João Victor do Espiríto Santo Freitas\Projeto Academia\frmLogin.cs">
       <SubType>Form</SubType>
@@ -95,17 +143,44 @@
     <EmbeddedResource Include="frmAgendamentos.resx">
       <DependentUpon>frmAgendamentos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAlunos.resx">
+      <DependentUpon>frmAlunos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCadastro.resx">
       <DependentUpon>frmCadastro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCaixa.resx">
       <DependentUpon>frmCaixa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCaixaVisualizador.resx">
+      <DependentUpon>frmCaixaVisualizador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmControle.resx">
       <DependentUpon>frmControle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmControledeAcesso.resx">
+      <DependentUpon>frmControledeAcesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmControledePonto.resx">
+      <DependentUpon>frmControledePonto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipamento.resx">
+      <DependentUpon>frmEquipamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFornecedores.resx">
+      <DependentUpon>frmFornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFuncionarios.resx">
+      <DependentUpon>frmFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProdutos.resx">
+      <DependentUpon>frmProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTerceirizados.resx">
+      <DependentUpon>frmTerceirizados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="T:\Cursos Livres\9900272735_APRENDIZAGEM_TF_23_T14112024\Alunos\João Victor do Espiríto Santo Freitas\Projeto Academia\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

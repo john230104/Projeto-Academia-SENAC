@@ -89,6 +89,7 @@
             this.btnCadProVoltar = new System.Windows.Forms.Button();
             this.btnCadProCadastrar = new System.Windows.Forms.Button();
             this.tbpFornecedores = new System.Windows.Forms.TabPage();
+            this.txtCadForContato = new System.Windows.Forms.TextBox();
             this.btnCadForApagar = new System.Windows.Forms.Button();
             this.btnCadForAlterar = new System.Windows.Forms.Button();
             this.btnCadForLimpar = new System.Windows.Forms.Button();
@@ -156,6 +157,8 @@
             this.txtCadTerRazaoSocial = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.tbpFuncionarios = new System.Windows.Forms.TabPage();
+            this.mktCadFunCelular = new System.Windows.Forms.MaskedTextBox();
+            this.cmbCadFunCargo = new System.Windows.Forms.ComboBox();
             this.btnCadFunApagar = new System.Windows.Forms.Button();
             this.btnCadFunAlterar = new System.Windows.Forms.Button();
             this.btnCadFunLimpar = new System.Windows.Forms.Button();
@@ -226,9 +229,6 @@
             this.btnCadControle = new System.Windows.Forms.Button();
             this.btnCadAgendamento = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.txtCadForContato = new System.Windows.Forms.TextBox();
-            this.cmbCadFunCargo = new System.Windows.Forms.ComboBox();
-            this.mktCadFunCelular = new System.Windows.Forms.MaskedTextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tbcCadastro.SuspendLayout();
@@ -856,6 +856,14 @@
             this.tbpFornecedores.TabIndex = 2;
             this.tbpFornecedores.Text = "FORNECEDORES";
             this.tbpFornecedores.UseVisualStyleBackColor = true;
+            // 
+            // txtCadForContato
+            // 
+            this.txtCadForContato.Location = new System.Drawing.Point(127, 63);
+            this.txtCadForContato.Name = "txtCadForContato";
+            this.txtCadForContato.Size = new System.Drawing.Size(234, 20);
+            this.txtCadForContato.TabIndex = 49;
+            this.txtCadForContato.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnCadForApagar
             // 
@@ -1501,6 +1509,21 @@
             this.tbpFuncionarios.TabIndex = 4;
             this.tbpFuncionarios.Text = "FUNCIONARIOS";
             this.tbpFuncionarios.UseVisualStyleBackColor = true;
+            // 
+            // mktCadFunCelular
+            // 
+            this.mktCadFunCelular.Location = new System.Drawing.Point(504, 82);
+            this.mktCadFunCelular.Name = "mktCadFunCelular";
+            this.mktCadFunCelular.Size = new System.Drawing.Size(176, 20);
+            this.mktCadFunCelular.TabIndex = 75;
+            // 
+            // cmbCadFunCargo
+            // 
+            this.cmbCadFunCargo.FormattingEnabled = true;
+            this.cmbCadFunCargo.Location = new System.Drawing.Point(465, 182);
+            this.cmbCadFunCargo.Name = "cmbCadFunCargo";
+            this.cmbCadFunCargo.Size = new System.Drawing.Size(212, 21);
+            this.cmbCadFunCargo.TabIndex = 74;
             // 
             // btnCadFunApagar
             // 
@@ -2160,29 +2183,6 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "          CADASTROS";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // txtCadForContato
-            // 
-            this.txtCadForContato.Location = new System.Drawing.Point(127, 63);
-            this.txtCadForContato.Name = "txtCadForContato";
-            this.txtCadForContato.Size = new System.Drawing.Size(234, 20);
-            this.txtCadForContato.TabIndex = 49;
-            this.txtCadForContato.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // cmbCadFunCargo
-            // 
-            this.cmbCadFunCargo.FormattingEnabled = true;
-            this.cmbCadFunCargo.Location = new System.Drawing.Point(465, 182);
-            this.cmbCadFunCargo.Name = "cmbCadFunCargo";
-            this.cmbCadFunCargo.Size = new System.Drawing.Size(212, 21);
-            this.cmbCadFunCargo.TabIndex = 74;
-            // 
-            // mktCadFunCelular
-            // 
-            this.mktCadFunCelular.Location = new System.Drawing.Point(504, 82);
-            this.mktCadFunCelular.Name = "mktCadFunCelular";
-            this.mktCadFunCelular.Size = new System.Drawing.Size(176, 20);
-            this.mktCadFunCelular.TabIndex = 75;
             // 
             // frmCadastro
             // 
